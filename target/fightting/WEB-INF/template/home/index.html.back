@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+<title>乡村故事</title> <#include "/common/include.html" />
+<!-- Custom Theme files -->
+<link href="${request.getContextPath()}/public/css/style.css"
+	rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords"
+	content="Hope Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript">
+	
+	
+	
+	
+	
+// 	 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
+
+
+
+
+
+</script>
+<script type="text/javascript"
+	src="${request.getContextPath()}/public/js/move-top.js"></script>
+<script type="text/javascript"
+	src="${request.getContextPath()}/public/js/easing.js"></script>
+<!-- 自动布局 -->
+<script type="text/javascript"
+	src="${request.getContextPath()}/public/js/masonry-docs.min.js"></script>
+<!-- 无限翻页 -->
+<script type="text/javascript"
+	src="${request.getContextPath()}/public/js/jquery.infinitescroll.js"></script>
+<script type="text/javascript">
+	var totalpage = "${totalpage}";//从服务器得到总分页数
+	var readedpage = '${page}';//当前滚动到的页数
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event) {
+			event.preventDefault();
+			$('html,body').animate({
+				scrollTop : $(this.hash).offset().top
+			}, 1200);
+		});
+	});
+</script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		/*
+		var defaults = {
+		containerID: 'toTop', // fading element id
+		containerHoverID: 'toTopHover', // fading element hover id
+		scrollSpeed: 1200,
+		easingType: 'linear' 
+		};
+		 */
+		$().UItoTop({
+			easingType : 'easeOutQuart'
+		});
+
+	});
+</script>
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="logo">
+			<h1>
+				<a href="index.html">乡村故事</a>
+			</h1>
+		</div>
+		<!-- start header menu -->
+		<div class="header-top">
+			<div class="head-nav">
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed"
+								data-toggle="collapse"
+								data-target="#bs-example-navbar-collapse-1"
+								aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span> <span
+									class="icon-bar"></span> <span class="icon-bar"></span> <span
+									class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse"
+							id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="index.html">村委会</a></li>
+								<li><a href="about.html">奇闻异事</a></li>
+								<li><a href="news.html">乡里乡亲</a></li>
+								<li><a href="ministries.html">小卖部</a></li>
+								<li><a href="pages.html">打牌</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<div class="search-box">
+				<div id="sb-search" class="sb-search">
+					<form>
+						<input class="sb-search-input"
+							placeholder="Enter your search term..." type="search"
+							name="search" id="search"> <input
+							class="sb-search-submit" type="submit" value=""> <span
+							class="sb-icon-search"> </span>
+					</form>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<!-- search-scripts -->
+			<script src="${request.getContextPath()}/public/js/classie.js"></script>
+			<script src="${request.getContextPath()}/public/js/uisearch.js"></script>
+			<script>
+				new UISearch(document.getElementById('sb-search'));
+			</script>
+			<!-- //search-scripts -->
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!-- header -->
+	<!-- start banner -->
+	<div class="banner">
+		<div class="container"></div>
+	</div>
+	<!-- end banner -->
+	<div class="copyrights">
+		Collect from <a href="http://www.cssmoban.com/">企业网站模板</a>
+	</div>
+	<!-- founder -->
+	<div class="founder">
+		<div class="container">
+			<h3>今日头条</h3>
+			<h4>黄莲头村袁雪峰同志结婚</h4>
+			<P>曾经一个小毛孩，现如今已是身家百亿的上市公司老总。和很多年轻人一样，大学毕业就去了深圳，但是结果却是不一样的。现在他已是跨国电商巨头的掌门人。。。。。</P>
+			<a class="hvr-shutter-in-horizontal" href="#">查看详情</a>
+		</div>
+	</div>
+	<!-- founder -->
+	<!-- deffence -->
+	<div class="deffence">
+		<div class="container">
+			<div class="col-md-4 deffence-rgt">
+				<div class="deffence-left">
+					<img src="${request.getContextPath()}/images/20160315174916/jpg"
+						class="img-responsive" alt="" width="200px" height="200px" />
+					<h3>今日明星-吴伟</h3>
+					<p>一个普普通通的乡村人物,经过一系列或喜或悲的故事,成为了乡间名人。故事从乡村的实际出发,描写了当下农村农民的故事。为城市了解农村打开了一扇窗……</p>
+					<a class="hvr-shutter-in-horizontal" href="#">查看详情</a>
+				</div>
+			</div>
+			<div class="col-md-4 deffence-rgt">
+				<div class="deffence-left">
+					<img src="${request.getContextPath()}/images/16522388_175751/jpg"
+						class="img-responsive" alt="" width="200px" height="200px" />
+					<h3>组排脚</h3>
+					<p>附近的牌脚快些来啊，过哈人就满了哈。黄莲头村5组吴伟家茶馆</p>
+					<a class="hvr-shutter-in-horizontal" href="#">参一脚</a>
+				</div>
+			</div>
+			<div class="col-md-4 deffence-rgt">
+				<div class="deffence-left">
+					<img src="${request.getContextPath()}/images/56440535N2281c9fb/jpg"
+						class="img-responsive" alt="" width="200px" height="200px" />
+					<h3>今日特卖</h3>
+					<p>今日特价！美尔佳（Merca）JSQ-SA202加湿器2.5L大容量家用办公静音零辐射大雾</p>
+					<a class="hvr-shutter-in-horizontal" href="#">查看详情</a>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- deffence -->
+	<!-- team -->
+	<div class="team">
+		<div class="container">
+			<h3>Our Team</h3>
+			<div class="col-md-4 team-rgt">
+				<img src="${request.getContextPath()}/public/images/20.jpg"
+					class="img-responsive" alt="" />
+				<h4>Incididunt</h4>
+
+			</div>
+			<div class="col-md-4 team-rgt">
+				<img src="${request.getContextPath()}/public/images/19.jpg"
+					class="img-responsive" alt="" />
+				<h4>Incididunt</h4>
+			</div>
+			<div class="col-md-4 team-rgt">
+				<img src="${request.getContextPath()}/public/images/21.jpg"
+					class="img-responsive" alt="" />
+				<h4>Incididunt</h4>
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- team -->
+	<!-- video -->
+	<div class="video">
+		<div class="container">
+			<h3>Latest Video</h3>
+			<iframe width="100%" height="400"
+				src="https://www.youtube.com/embed/p29dKpHnPjQ" frameborder="0"
+				allowfullscreen></iframe>
+		</div>
+	</div>
+	<!-- video -->
+	<!-- our -->
+	<div class="our">
+		<div class="container">
+			<h3>Our Updates</h3>
+			<div class="col-md-4 our-tp">
+				<div class="ou-lft">
+					<span>20 /09</span>
+				</div>
+				<div class="ou-rgt">
+					<p>Assum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+						enim ad minim veniam, exercitation ullamclaboris</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-4 our-tp">
+				<div class="ou-lft">
+					<span>20 /09</span>
+				</div>
+				<div class="ou-rgt">
+					<p>Assum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+						enim ad minim veniam, exercitation ullamclaboris</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-4 our-tp">
+				<div class="ou-lft">
+					<span>20 /09</span>
+				</div>
+				<div class="ou-rgt">
+					<p>Assum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+						enim ad minim veniam, exercitation ullamclaboris</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- our -->
+	<!-- co-ntact -->
+	<div class="deffence">
+		<div class="container" id="masonid">
+			<!-- page-nav 创建一个不可见对象，用于载入下一页数据入口元素点 -->
+			<nav id="page-nav">
+				<a href="${request.getContextPath()}/nextPage/1"></a>
+			</nav>
+			<#list images as image>
+			<div class="deffence-left" id="box">
+				<#if image.type=='jpg'||image.type=='jpeg'||image.type=='png'||image.type=='gif'||image.type='bmp'> <img
+					src="${request.getContextPath()}/images/${image.url}"
+					class="carousel-inner img-responsive img-rounded"  width="200px" height="200px" />
+				</#if> 
+				<#if image.type=='mp4'>
+				<video width="213px" height="160px" controls="">
+					<source src="${request.getContextPath()}/images${image.url}"
+						type="video/mp4">
+					<div class="file-preview-other">
+						<i class="glyphicon glyphicon-file"></i>
+					</div>
+				</video>
+				</#if>
+				<div>
+				<h3>今日明星-吴伟</h3>
+				<p>一个普普通通的乡村人物,经过一系列或喜或悲的故事,成为了乡间名人。故事从乡村的实际出发,描写了当下农村农民的故事。为城市了解农村打开了一扇窗……</p>
+				<a class="hvr-shutter-in-horizontal" href="#">查看详情</a>
+				</div>
+			</div>
+			<div class="clear"></div>
+			</#list>
+		</div>
+	</div>
+	<!-- co-ntact -->
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-3 footer-left">
+				<h3>Telephone</h3>
+				<p>1 800 603 6035</p>
+			</div>
+			<div class="col-md-3 footer-left">
+				<h3>E-Mail Us</h3>
+				<p>
+					Email : <a href="mailto:info@example.com">info@mycompany.com</a>
+				</p>
+			</div>
+			<div class="col-md-3 footer-left">
+				<h3>Follow Us</h3>
+				<ul>
+					<li><a href="#"><i class="facebok"> </i></a></li>
+					<li><a href="#"><i class="twiter"> </i></a></li>
+					<li><a href="#"><i class="goog"> </i></a></li>
+					<li><a href="#"><i class="inst"> </i></a></li>
+					<div class="clearfix"></div>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-left">
+				<h3>Address</h3>
+				<p>8058 St Perth Place, Australia, DC 55 Fr 88.</p>
+			</div>
+			<div class="clearfix"></div>
+			<div class="foot-bottom">
+				<p>
+					Copyright &copy; 2015.Company name All rights reserved.More
+					Templates <a href="http://www.cssmoban.com/" target="_blank"
+						title="模板之家">模板之家</a> - Collect from <a
+						href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer -->
+	<a href="#" id="toTop" style="display: block;"><span
+		id="toTopHover" style="opacity: 0;"></span> <span id="toTopHover"
+		style="opacity: 0;"> </span></a>
+</body>
+<script type="text/javascript">
+	$(function() {
+	    $('box').hide();
+		var $container = $('#masonid');
+		readedpage++;
+		if (totalpage > 1) {//如果总共只有一页，那就不需要滚动加载效果了
+			$("#page-nav a").attr("href",
+					"${request.getContextPath()}/nextPage/" + readedpage);
+			$container.imagesLoaded(function() {
+				$container.masonry({
+					itemSelector : '#box',
+					columnWidth : 100,
+					isDone : true
+				});
+			});//这里参数可以为空，但必须要初始化masonry，否则后面会报找不到方法appended。
+
+			$container.infinitescroll({
+				navSelector : '#page-nav', //指定page-nav
+				nextSelector : '#page-nav a', // page-nav下一页的链接
+				itemSelector : '#box', // 要获取追加的页面元素
+				loading : {
+					finishedMsg : 'No more pages to load.',
+					img : 'http://i.imgur.com/6RMhx.gif'
+				}
+			},
+			// pathParse: ["/billstudy/bill/question/all/null/", ""],
+			// trigger Masonry as a callback
+			function(newElements) {
+				// hide new items while they are loading
+				var $newElems = $(newElements).css({
+					opacity : 0
+				});
+				// ensure that images load before adding to masonry layout
+				$newElems.imagesLoaded(function() {
+					// show elems now they're ready
+					$newElems.animate({
+						opacity : 1
+					});
+					$container.masonry('appended', $newElems, true);
+					readedpage++;//当前页滚动完后，定位到下一页
+					if (readedpage > totalpage) {//如果滚动到超过最后一页，置成不要再滚动。
+						$("#page-nav").remove();
+						$container.infinitescroll({
+							state : {
+								isDone : true
+							}
+						});
+					} else {
+						//'#page-nav a置成下一页的值
+						$("#page-nav a").attr(
+								"href",
+								"${request.getContextPath()}/nextPage/"
+										+ readedpage);
+					}
+				});
+			});
+		}
+
+	});
+</script>
+</html>

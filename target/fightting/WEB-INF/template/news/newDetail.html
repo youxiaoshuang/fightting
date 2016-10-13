@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>WeUI</title>
+    <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/0.4.3/weui.min.css"/>
+    <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/1.0.2/weui.min.css"/>
+
+</head>
+<body>
+<div class="page">
+    <div class="page__hd">
+        <h1 class="page__title">${nDoucument.title}</h1>
+    </div>
+    <div class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+        <span class="weui-loadmore__tips"></span>
+        <p class="page__desc">${nDoucument.desc}</p>
+    </div>
+    <div class="page__bd">
+        ${nDoucument.content}
+    </div>
+    <div class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
+        <span class="weui-loadmore__tips"></span>
+    </div>
+
+</div>
+</body>
+</html>
