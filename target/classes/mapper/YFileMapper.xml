@@ -180,7 +180,19 @@
       <include refid="Example_Where_Clause" />
     </if>
   </select>
-  <update id="updateByExampleSelective" parameterType="map" >
+    <select id="selectByKey" resultType="com.youdows.fightting.entity.YFile">
+      select
+      <include refid="Base_Column_List" />
+      from y_file
+      where `key` = #{key,jdbcType=VARCHAR}
+    </select>
+    <select id="selectByDocId" resultType="com.youdows.fightting.entity.YFile">
+      select
+      <include refid="Base_Column_List" />
+      from y_file
+      where  docId = #{docId,jdbcType=INTEGER} limit 3
+    </select>
+    <update id="updateByExampleSelective" parameterType="map" >
     update y_file
     <set >
       <if test="record.id != null" >

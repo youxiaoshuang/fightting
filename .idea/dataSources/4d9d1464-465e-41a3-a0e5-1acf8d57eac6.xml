@@ -4,81 +4,124 @@
     <schema id="1" name="fighting">
       <visible>1</visible>
     </schema>
-    <table id="2" parent="1" name="n_document"/>
-    <table id="3" parent="1" name="user"/>
-    <table id="4" parent="1" name="y_image"/>
-    <column id="5" parent="2" name="id">
+    <schema id="2" name="information_schema"/>
+    <schema id="3" name="mysql"/>
+    <schema id="4" name="n_document"/>
+    <schema id="5" name="performance_schema"/>
+    <schema id="6" name="sys"/>
+    <table id="7" parent="1" name="n_document"/>
+    <table id="8" parent="1" name="user"/>
+    <table id="9" parent="1" name="y_image"/>
+    <table id="10" parent="1" name="y_file"/>
+    <column id="11" parent="7" name="id">
       <mandatory>1</mandatory>
       <data-type>int(11) unsigned|0</data-type>
+      <sequence-identity>1</sequence-identity>
     </column>
-    <column id="6" parent="2" name="content">
+    <column id="12" parent="7" name="content">
       <comment>html内容</comment>
-      <mandatory>1</mandatory>
       <data-type>longtext|0</data-type>
     </column>
-    <column id="7" parent="2" name="title">
+    <column id="13" parent="7" name="title">
       <comment>标题</comment>
-      <mandatory>1</mandatory>
       <data-type>varchar(40)|0</data-type>
     </column>
-    <column id="8" parent="2" name="status">
+    <column id="14" parent="7" name="status">
       <comment>1可用 2不可用 默认0</comment>
-      <mandatory>1</mandatory>
       <data-type>int(2)|0</data-type>
       <default-expression>&apos;0&apos;</default-expression>
     </column>
-    <column id="9" parent="2" name="updateTime">
-      <mandatory>1</mandatory>
+    <column id="15" parent="7" name="updateTime">
       <data-type>datetime|0</data-type>
-      <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      <default-expression>CURRENT_TIMESTAMP</default-expression>
     </column>
-    <column id="10" parent="2" name="createTime">
-      <mandatory>1</mandatory>
+    <column id="16" parent="7" name="createTime">
       <data-type>datetime|0</data-type>
-      <default-expression>&apos;CURRENT_TIMESTAMP&apos;</default-expression>
+      <default-expression>CURRENT_TIMESTAMP</default-expression>
     </column>
-    <column id="11" parent="2" name="uuid">
+    <column id="17" parent="7" name="uuid">
+      <mandatory>1</mandatory>
       <data-type>varchar(100)|0</data-type>
     </column>
-    <key id="12" parent="2" name="PRIMARY">
+    <column id="18" parent="7" name="desc">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <key id="19" parent="7" name="PRIMARY">
       <columns>id</columns>
       <primary>1</primary>
     </key>
-    <column id="13" parent="3" name="id">
+    <column id="20" parent="8" name="id">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
     </column>
-    <column id="14" parent="3" name="name">
+    <column id="21" parent="8" name="name">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="15" parent="3" name="password">
+    <column id="22" parent="8" name="password">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <key id="16" parent="3" name="PRIMARY">
+    <key id="23" parent="8" name="PRIMARY">
       <columns>id</columns>
       <primary>1</primary>
     </key>
-    <column id="17" parent="4" name="imageId">
+    <column id="24" parent="9" name="imageId">
       <mandatory>1</mandatory>
       <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
     </column>
-    <column id="18" parent="4" name="type">
+    <column id="25" parent="9" name="type">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="19" parent="4" name="name">
+    <column id="26" parent="9" name="name">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="20" parent="4" name="size">
+    <column id="27" parent="9" name="size">
       <data-type>bigint(20)|0</data-type>
     </column>
-    <column id="21" parent="4" name="url">
+    <column id="28" parent="9" name="url">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <column id="22" parent="4" name="ftpUrl">
+    <column id="29" parent="9" name="ftpUrl">
       <data-type>varchar(255)|0</data-type>
     </column>
-    <key id="23" parent="4" name="PRIMARY">
+    <key id="30" parent="9" name="PRIMARY">
       <columns>imageId</columns>
+      <primary>1</primary>
+    </key>
+    <column id="31" parent="10" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11) unsigned|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="32" parent="10" name="key">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="33" parent="10" name="originalName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="34" parent="10" name="newName">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="35" parent="10" name="fileType">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="36" parent="10" name="size">
+      <data-type>bigint(20)|0</data-type>
+    </column>
+    <column id="37" parent="10" name="url">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="38" parent="10" name="serverPath">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="39" parent="10" name="docId">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="40" parent="10" name="PRIMARY">
+      <columns>id</columns>
       <primary>1</primary>
     </key>
   </database-model>

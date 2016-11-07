@@ -27,7 +27,7 @@ public class HomeController {
 	private ImageService imageService;
 	@Autowired
 	public NewsService newsService;
-	@RequestMapping("/index")
+	@RequestMapping("/")
 	public ModelAndView index() {
 		ModelAndView mav = new ModelAndView("home/index");
 		YImageEntity image = new YImageEntity();

@@ -37,7 +37,7 @@ $.fn.extend({
                 		_this.upload(f.target.result);
                 		return ;
                 	}
-            		var img = '<img src="'+ f.target.result +'" style="width:90%;" />';
+            		var img = '<img src="'+ f.target.result +'"class="newImage"/>';
             	    _this.insertImage(img);
                 };
 			});
@@ -65,7 +65,7 @@ $.fn.extend({
 		.then(function(res) {
 			var src = _this._opt.uploadSuccess(res);
 			if(src) {
-				var img = '<img src="'+ src +'" style="width:90%;" />';
+				var img = '<img src="'+ src +'"class="newImage"/>';
 			    _this.insertImage(img);
 			} else {
 				_this._opt.uploadError(res);

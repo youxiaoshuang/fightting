@@ -2,15 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>artEditor</title>
+    <title>写新闻-日大侠-为宜昌人量身设计</title>
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <!-- 强制让文档的宽度与设备的宽度保持1:1，并且文档最大的宽度比例是1.0，且不允许用户点击屏幕放大浏览 -->
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, minimal-ui">
     <!-- iphone设备中的safari私有meta标签，它表示：允许全屏模式浏览 -->
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <link rel="stylesheet" href="/public/css/newsEditIndex.css">
+    <link rel="stylesheet" href="${ctx}/public/css/newsEditIndex.css">
+    <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/1.0.2/weui.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="${ctx}/public/css/bootstrap-tagsinput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rainbow/1.2.0/themes/github.css">
+    <link rel="stylesheet" href="${ctx}/public/css/app.css">
 </head>
 <body>
+<input type="hidden" id="ctx" value="${ctx}">
 <input type="hidden" id="docCode" value="${docCode}"/>
 <div style="width:320px;margin: 0 auto;margin-top: 10px">
     <div class="publish-article-title">
@@ -21,6 +29,11 @@
         <div class="title-tips">描述</div>
         <input type="text" id="desc" class="w100" placeholder="文章描述(少于10字)">
     </div>
+    <!--<div class="publish-article-title">-->
+        <!--<div class="title-tips">标签</div>-->
+        <!--&lt;!&ndash;<input type="text" id="tag" class="w100" placeholder="文章描述(少于10字)">&ndash;&gt;-->
+        <!--<input type="text" id="tag" data-role="tagsinput"/>-->
+    <!--</div>-->
     <div class="publish-article-content">
         <div class="title-tips">正文</div>
         <input type="hidden" id="target">
@@ -39,9 +52,60 @@
         <a href="javascript:;" class="weui-btn weui-btn_plain-default" id="sub" onclick="sub();">提交</a>
     </div>
 </div>
-<script src="/public/js/jquery-1.11.2.js"></script>
-<script src="/public/js/artEditor.js"></script>
-<script src="/public/js/newsEditIndex.js"></script>
-<link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/1.0.2/weui.min.css"/>
+<div class="weui-tabbar" style="position: fixed; bottom: 0; opacity: 1;">
+    <a href="${ctx}/news/index" class="weui-tabbar__item weui-bar__item_on">
+        <img src="${ctx}/public/images/icon_nav_panel.png" alt="" class="weui-tabbar__icon">
+        <p class="weui-tabbar__label">发文</p>
+    </a>
+    <a href="${ctx}/" class="weui-tabbar__item">
+        <img src="${ctx}/public/images/icon_nav_special.png " alt="" class="weui-tabbar__icon">
+        <p class="weui-tabbar__label">主页</p>
+    </a>
+    <a href="javascript:;" class="weui-tabbar__item">
+        <img src="${ctx}/public/images/icon_nav_layout.png" alt="" class="weui-tabbar__icon">
+        <p class="weui-tabbar__label">我</p>
+    </a>
+</div>
+<script src="${ctx}/public/js/jquery-1.11.2.js"></script>
+<script src="${ctx}/public/js/artEditor.js"></script>
+<script src="${ctx}/public/js/newsEditIndex.js"></script>
+
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.11.1/typeahead.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+<script src="${ctx}/public/js/bootstrap-tagsinput.min.js"></script>
+<script src="${ctx}/public/js/bootstrap-tagsinput-angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rainbow/1.2.0/js/rainbow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rainbow/1.2.0/js/language/generic.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rainbow/1.2.0/js/language/html.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rainbow/1.2.0/js/language/javascript.js"></script>
+<!--<script src="${ctx}/public/js/app.js"></script>-->
+<!--<script src="${ctx}/public/js/app_bs3.js"></script>-->
+<!--<script src="${ctx}/public/js/i18n/*.js"></script>-->
 </body>
+
+<script>
+    var citynames = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.obj.whitespace('text'),
+        queryTokenizer: Bloodhound.tokenizers.whitespace,
+        prefetch:  {
+            url: '/public/js/citynames.json',
+            filter: function(list) {
+                return $.map(list, function(cityname) {
+                    return { name: cityname }; });
+            }
+        }
+    });
+    citynames.initialize();
+
+    $('#tag').tagsinput({
+        typeaheadjs: {
+            name: 'citynames',
+            displayKey: 'name',
+            valueKey: 'name',
+            source: citynames.ttAdapter()
+        }
+    });
+</script>
 </html>

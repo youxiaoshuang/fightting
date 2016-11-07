@@ -1,5 +1,6 @@
 package com.youdows.fightting.service;
 
+import com.youdows.fightting.entity.YFile;
 import com.youdows.fightting.serviceModel.FileModel;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -19,4 +20,6 @@ public interface FileService {
     FileModel uploadLocalFile(FileModel fileModel);
 
     void saveFile(FileModel fileModel);
+
+    YFile getFileByKey(String key);
 }

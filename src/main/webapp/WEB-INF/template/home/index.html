@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
-    <title>WeUI</title>
+    <title>日大侠-为宜昌人量身设计</title>
     <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/0.4.3/weui.min.css"/>
     <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/1.0.2/weui.min.css"/>
-    <link rel="stylesheet" href="public/css/example.css"/>
-
+    <link rel="stylesheet" href="${ctx}/public/css/example.css"/>
 </head>
 <body>
 <div class="hd">
     <h1 class="page_title">日大侠</h1>
-    <p class="page_desc">为宜都人量身设计</p>
+    <p class="page_desc">为宜昌人量身设计</p>
 </div>
 <div class="bd">
     <div class="weui_grids">
@@ -31,14 +30,19 @@
                 生活养生
             </p>
         </a>
-        <a href="/news/index" class="weui_grid">
+        <a href="#/center" class="weui_grid">
             <p class="weui_grid_label">
                 个人中心
             </p>
         </a>
-        <a href="/news/index" class="weui_grid">
+        <a href="${ctx}/news/index" class="weui_grid">
             <p class="weui_grid_label">
                 写新闻
+            </p>
+        </a>
+        <a href="#/mall" class="weui_grid">
+            <p class="weui_grid_label">
+                商城
             </p>
         </a>
     </div>
@@ -49,68 +53,128 @@
             <div class="weui-panel__hd">今日推荐</div>
             <div class="weui-panel__bd">
                 <#list news as doc>
-                    <#if ((doc.url!"")?length > 0)>
-                        <!--图文组合列表-->
-                        <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
-                            <div class="weui-media-box__hd">
-                                <img class="weui-media-box__thumb"
-                                     src="${doc.url}" alt="">
-                            </div>
+                    <#if (doc.imageSize == 0)>
+                        <!--文字组合列表-->
+                        <div class="weui-media-box weui-media-box_text"
+                             onclick="location='${ctx}/news/getNewsDetail?code=${doc.uuid}'">
+                            <h4 class="weui-media-box__title">${doc.title}</h4>
+                            <p class="weui-media-box__desc">${doc.desc}</p>
+                            <ul class="weui-media-box__info">
+                                <li class="weui-media-box__info__meta">文字来源</li>
+                                <li class="weui-media-box__info__meta">${doc.createtime?string("yyyy-MM-dd
+                                    HH:mm")}
+                                </li>
+                                <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">本站编辑
+                                </li>
+                            </ul>
+                        </div>
+                    </#if>
+                    <!--图文组合列表 一张图片-->
+                    <#if (doc.imageSize == 1)>
+                        <a href="${ctx}/news/getNewsDetail?code=${doc.uuid}"
+                           class="weui-media-box weui-media-box_appmsg">
+
                             <div class="weui-media-box__bd">
                                 <h4 class="weui-media-box__title">${doc.title}</h4>
                                 <p class="weui-media-box__desc">${doc.desc}</p>
-                            </div>
-                        </a>
-                        <!--文章来源 时间 以及发布人-->
-                        <div class="weui-panel__bd">
-                            <div class="weui-media-box weui-media-box_text">
                                 <ul class="weui-media-box__info">
-                                    <li class="weui-media-box__info__meta">文字来源</li>
+                                    <!--<li class="weui-media-box__info__meta">文字来源</li>-->
                                     <li class="weui-media-box__info__meta">${doc.createtime?string("yyyy-MM-dd
-                                        HH:mm:ss")}
+                                        HH:mm")}
                                     </li>
-                                    <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">其它信息
+                                    <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">本站编辑
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <#else>
-                            <!--文字组合列表-->
-                            <div class="weui-media-box weui-media-box_text">
-                                <h4 class="weui-media-box__title">${doc.title}</h4>
-                                <p class="weui-media-box__desc">${doc.desc}</p>
-                            </div>
-                            <!--文章来源 时间 以及发布人-->
-                            <div class="weui-panel__bd">
-                                <div class="weui-media-box weui-media-box_text">
+                            <#list doc.images as image>
+                                <div class="weui-media-box__hd" weui-media-box_text>
+                                    <img class="weui-media-box__thumb" style="width: 100%" height="100%"
+                                         src="${image.url}" alt="">
+
+                                </div>
+                            </#list>
+                        </a>
+                    </#if>
+                    <#if (doc.imageSize == 2)>
+                        <!--两张图片模板-->
+                        <div class="weui-media-box"
+                             onclick="location='${ctx}/news/getNewsDetail?code=${doc.uuid}'">
+                            <!--<article class="weui-article">-->
+                            <section>
+                                <section>
+                                    <h4 class="weui-media-box__title">${doc.title}</h4>
+                                    <p class="weui-media-box__desc">${doc.desc}</p>
+                                    <p>
+                                        <#list doc.images as image>
+                                            <img class="weui-media-box__thumb" style="width: 49%" height="100px"
+                                                 src="${image.url}" alt="">
+                                        </#list>
+                                    </p>
                                     <ul class="weui-media-box__info">
                                         <li class="weui-media-box__info__meta">文字来源</li>
                                         <li class="weui-media-box__info__meta">${doc.createtime?string("yyyy-MM-dd
-                                            HH:mm:ss")}
+                                            HH:mm")}
                                         </li>
-                                        <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">其它信息
+                                        <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">本站编辑
                                         </li>
                                     </ul>
-                                </div>
-                            </div>
-                        </#if>
+                                </section>
+                            </section>
+                            <!--</article>-->
+                        </div>
+                    </#if>
+
+                    <#if (doc.imageSize > 2)>
+                        <!--三张图片模板-->
+                        <div class="weui-media-box"
+                             onclick="location='${ctx}/news/getNewsDetail?code=${doc.uuid}'">
+                            <!--<article class="weui-article">-->
+                            <section>
+                                <section>
+                                    <h4 class="weui-media-box__title">${doc.title}</h4>
+                                    <p class="weui-media-box__desc">${doc.desc}</p>
+                                    <p>
+                                        <#list doc.images as image>
+                                            <img class="weui-media-box__thumb" style="width: 32%" height="100px"
+                                                 src="${image.url}" alt="">
+                                        </#list>
+                                    </p>
+                                    <ul class="weui-media-box__info">
+                                        <li class="weui-media-box__info__meta">文字来源</li>
+                                        <li class="weui-media-box__info__meta">${doc.createtime?string("yyyy-MM-dd
+                                            HH:mm")}
+                                        </li>
+                                        <li class="weui-media-box__info__meta weui-media-box__info__meta_extra">本站编辑
+                                        </li>
+                                    </ul>
+                                </section>
+                            </section>
+                            <!--</article>-->
+                        </div>
+                    </#if>
                 </#list>
-                <div class="weui-panel__ft">
-                    <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link">
-                        <div class="weui-cell__bd">查看更多</div>
-                        <span class="weui-cell__ft"></span>
-                    </a>
-                </div>
             </div>
+            <!--<div class="page__ft">-->
+            <!--&lt;!&ndash;<a href="javascript:home()"><img src="/upload/icon_nav_nav.png"/></a>&ndash;&gt;-->
+            <!--</div>-->
         </div>
-        <div class="page__ft">
-            <!--<a href="javascript:home()"><img src="/upload/icon_nav_nav.png"/></a>-->
+
+
+        <div class="weui-tabbar" style="position: fixed; bottom: 0; opacity: 1;">
+            <a href="${ctx}/news/index" class="weui-tabbar__item ">
+                <img src="${ctx}/public/images/icon_nav_panel.png" alt="" class="weui-tabbar__icon">
+                <p class="weui-tabbar__label">发文</p>
+            </a>
+            <a href="${ctx}" class="weui-tabbar__item weui-bar__item_on">
+                <img src="${ctx}/public/images/icon_nav_button.png " alt="" class="weui-tabbar__icon">
+                <p class="weui-tabbar__label">主页</p>
+            </a>
+            <a href="javascript:;" class="weui-tabbar__item">
+                <img src="${ctx}/public/images/icon_nav_panel.png" alt="" class="weui-tabbar__icon">
+                <p class="weui-tabbar__label">我</p>
+            </a>
         </div>
     </div>
-    <div class="page__bd page__bd_spacing">
-        <div class="weui-footer">
-            <p class="weui-footer__text">Copyright &copy; 2008-2016 日大侠</p>
-        </div>
-    </div>
+</div>
 </body>
 </html>

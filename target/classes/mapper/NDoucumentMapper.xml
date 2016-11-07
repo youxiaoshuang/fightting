@@ -171,27 +171,24 @@
         </if>
     </select>
     <select id="selectByAllPage" resultType="com.youdows.fightting.entity.NDoucument">
-                    SELECT
-              d.id,
-              d.content,
-              d.`desc`,
-              d.title,
-              d.status,
-              d.updateTime,
-              d.createTime,
-              d.uuid,
-              f.url
-            FROM n_document d
-              LEFT JOIN (SELECT *
-                         FROM y_file
-                         GROUP BY docId) f ON f.docId = d.id AND d.`status` = 1
-            WHERE d.`status` = 1
+            SELECT
+  d.id,
+  d.content,
+  d.`desc`,
+  d.title,
+  d.status,
+  d.updateTime,
+  d.createTime,
+  d.uuid,
+  (SELECT count(1) FROM y_file f WHERE f.docId = d.id AND d.status = 1) AS imageSize
+FROM n_document d
+WHERE d.`status` = 1 ORDER BY d.createTime DESC
     </select>
     <select id="selectByCode" resultType="com.youdows.fightting.entity.NDoucument">
         select
         <include refid="Base_Column_List"/>
         from n_document
-        where uuid = #{code,jdbcType=VARCHAR} and `status` = 1
+        where uuid = #{code,jdbcType=VARCHAR}
     </select>
     <update id="updateByExampleSelective" parameterType="map">
         update n_document

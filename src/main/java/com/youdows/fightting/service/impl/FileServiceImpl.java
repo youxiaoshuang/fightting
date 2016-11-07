@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -30,12 +31,14 @@ public class FileServiceImpl implements FileService {
     @Autowired
     private NDoucumentMapper nDoucumentMapper;
     private Logger logger = LoggerFactory.getLogger( this.getClass() );
-    private String httpPath = "http://10.0.93.65:9090/";
+    @Value( "#{sys['httpPath']}" )
+    private String httpPath;
+
 
     public FileModel uploadLocalFile(FileModel fileModel) {
         try {
             FileUitl.toFile(fileModel.getBaseStr(),fileModel.getServerPath());
-            fileModel.setUrl( httpPath+"/upload/"+fileModel.getNewName() );
+            fileModel.setUrl( httpPath+"fileCenter/getFile/"+fileModel.getKey() );
         } catch (Exception e) {
             e.printStackTrace();
             logger.info( "保存图片失败:"+e );
@@ -56,6 +59,11 @@ public class FileServiceImpl implements FileService {
         yFile.setServerpath( fileModel.getServerPath() );
         yFile.setSize( fileModel.getSize() );
         int i = yFileMapper.insertSelective( yFile );
+    }
+
+    public YFile getFileByKey(String key) {
+        YFile yFile = yFileMapper.selectByKey( key );
+        return yFile;
     }
 
 //    public File uploadLocalFile(MultipartFile multipartFile, String savePath, String newName) {

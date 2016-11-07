@@ -1,7 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13e7e90f-7dc1-4a1e-95b9-67e635ed0e4e" name="Default" comment="" />
+    <list default="true" id="13e7e90f-7dc1-4a1e-95b9-67e635ed0e4e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_footer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_footer_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_intro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_feedback.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_flow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_form.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_layout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_special.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_z-index.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_zindex.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_tabbar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/layers/content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/layers/navigation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/layers/popout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/layers/transparent.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/pic_160.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/vcode.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/common/Response.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/WechatController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/interceptor/MyFreeMarkerView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/ChatService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/SimSimiService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/TagService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/WechatService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/ChatServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/SimSimiServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/TagServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/WechatServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/MessageUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/JSSign.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/pull/Content.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/pull/MessageCustomSend.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/pull/PullResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/pull/PullTextMessage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/req/BaseMessageRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/req/ImageMessageRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/req/LinkMessageRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/req/LocationMessageRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/req/TextMessageRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/req/VoiceMessageRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/resp/Article.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/resp/BaseMessageResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/resp/Music.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/resp/MusicMessageResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/resp/NewsMessageResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/resp/TextMessageResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/css/bootstrap-tagsinput.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/css/newsDetail.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/js/app_bs3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/js/bootstrap-tagsinput-angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/js/bootstrap-tagsinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/js/cities.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/public/js/citynames.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/WeixinController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/05af46e5e35a45d3b75df2f5a2308127.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/0b81fa6624a946a5835a2da200df3d6d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/0c49a89ffcd34325a1f1ad1c53716ae9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/1702bdbf42eb41c3857f6adff96415e4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/2c710372f72a41ba8bb30b0dad9fb153.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/2c8061d1f76543bb8e2c8ab7f81dc51f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/3c59714c2f1f4fd6b6f72d4fef6ade08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/410d900018654ae488ff0f813dba3196.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/4a213e1f47a64bf7b135f85ab0b3f6dd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/4ea8feb5cbae419da63f66e684fe22d0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/51ae2ce18e3749ec82140200e157884a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/54bc8282d2484591b2705932ac39aaa8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/78ecb11ea5204db3a3546187a7b67064.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/825c939b330e47a4bb43ce01c0ab8391.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/99546b545c6e40c787cdaf4a1a938670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/a9b6a0e74de34230abf1d3c15f9a888c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/adaeadef8fed4d5b983e60e22c836fc6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/b545f0624c0b4253a909df07cb10ed01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/bc6b14e2a9734942934362842d133918.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/c3b7f7a49b5b420fba99e24baef888b7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/dc749227a5784b8682eb2a13b0f85a72.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/f9c7bdf9cfd343af8f9303d466b4c79a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/fb6c0542216e45f1b508b74b08d12e4f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/upload/icon_nav_nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/youdows/fightting/controller/WeixinController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/controller/WeixinController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/05af46e5e35a45d3b75df2f5a2308127.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/0b81fa6624a946a5835a2da200df3d6d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/0c49a89ffcd34325a1f1ad1c53716ae9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/1702bdbf42eb41c3857f6adff96415e4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/2c710372f72a41ba8bb30b0dad9fb153.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/2c8061d1f76543bb8e2c8ab7f81dc51f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/3c59714c2f1f4fd6b6f72d4fef6ade08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/410d900018654ae488ff0f813dba3196.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/4a213e1f47a64bf7b135f85ab0b3f6dd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/4ea8feb5cbae419da63f66e684fe22d0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/51ae2ce18e3749ec82140200e157884a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/54bc8282d2484591b2705932ac39aaa8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/78ecb11ea5204db3a3546187a7b67064.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/825c939b330e47a4bb43ce01c0ab8391.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/99546b545c6e40c787cdaf4a1a938670.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/a9b6a0e74de34230abf1d3c15f9a888c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/adaeadef8fed4d5b983e60e22c836fc6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/b545f0624c0b4253a909df07cb10ed01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/bc6b14e2a9734942934362842d133918.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/c3b7f7a49b5b420fba99e24baef888b7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/dc749227a5784b8682eb2a13b0f85a72.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/f9c7bdf9cfd343af8f9303d466b4c79a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/fb6c0542216e45f1b508b74b08d12e4f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/fightting/upload/icon_nav_nav.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_msg.png" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_msg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_progress.png" afterPath="$PROJECT_DIR$/src/main/webapp/public/images/icon_nav_progress.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/youdows/fightting/controller/FileController.class" afterPath="$PROJECT_DIR$/target/classes/com/youdows/fightting/controller/FileController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/youdows/fightting/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/youdows/fightting/controller/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/youdows/fightting/controller/NewsController.class" afterPath="$PROJECT_DIR$/target/classes/com/youdows/fightting/controller/NewsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/youdows/fightting/dao/YFileMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/youdows/fightting/dao/YFileMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/youdows/fightting/entity/NDoucument.class" afterPath="$PROJECT_DIR$/target/classes/com/youdows/fightting/entity/NDoucument.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/youdows/fightting/service/FileService.class" afterPath="$PROJECT_DIR$/target/classes/com/youdows/fightting/service/FileService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/youdows/fightting/service/impl/FileServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/youdows/fightting/service/impl/FileServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/youdows/fightting/service/impl/NewsServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/youdows/fightting/service/impl/NewsServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/youdows/fightting/util/FileUitl.class" afterPath="$PROJECT_DIR$/target/classes/com/youdows/fightting/util/FileUitl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/controller/FileController.class" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/controller/FileController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/controller/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/controller/NewsController.class" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/controller/NewsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/dao/YFileMapper.class" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/dao/YFileMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/entity/NDoucument.class" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/entity/NDoucument.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/service/FileService.class" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/service/FileService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/service/impl/FileServiceImpl.class" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/service/impl/FileServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/service/impl/NewsServiceImpl.class" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/service/impl/NewsServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/util/FileUitl.class" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/com/youdows/fightting/util/FileUitl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/public/images/icon_nav_msg.png" afterPath="$PROJECT_DIR$/target/fightting/public/images/icon_nav_msg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/public/images/icon_nav_progress.png" afterPath="$PROJECT_DIR$/target/fightting/public/images/icon_nav_progress.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/fightting_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/fightting_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/4d9d1464-465e-41a3-a0e5-1acf8d57eac6.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/4d9d1464-465e-41a3-a0e5-1acf8d57eac6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fightting.iml" afterPath="$PROJECT_DIR$/fightting.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/FileController.java" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/FileController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/HomeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/NewsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/NewsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/dao/YFileMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/dao/YFileMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/entity/NDoucument.java" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/entity/NDoucument.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/FileService.java" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/FileService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/FileServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/FileServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/NewsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/NewsServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/FileUitl.java" afterPath="$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/FileUitl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/config/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/config/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/NDoucumentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/NDoucumentMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/YFileMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/YFileMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/home/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/home/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newDetail.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newShowMyself.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newShowMyself.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newsEditIndex.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newsEditIndex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/logs/error.log" afterPath="$PROJECT_DIR$/src/main/webapp/logs/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/logs/info.log" afterPath="$PROJECT_DIR$/src/main/webapp/logs/info.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/public/css/example.css" afterPath="$PROJECT_DIR$/src/main/webapp/public/css/example.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/public/js/artEditor.js" afterPath="$PROJECT_DIR$/src/main/webapp/public/js/artEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/public/js/newsEditIndex.js" afterPath="$PROJECT_DIR$/src/main/webapp/public/js/newsEditIndex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/config.properties" afterPath="$PROJECT_DIR$/target/classes/config/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/jdbc.properties" afterPath="$PROJECT_DIR$/target/classes/config/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/config/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/mybatis-config.xml" afterPath="$PROJECT_DIR$/target/classes/config/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/config/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/NDoucumentMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/NDoucumentMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/YFileMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/YFileMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/config/config.properties" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/config/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/config/jdbc.properties" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/config/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/config/log4j.properties" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/config/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/config/mybatis-config.xml" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/config/mybatis-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/config/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/config/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/mapper/NDoucumentMapper.xml" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/mapper/NDoucumentMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/mapper/YFileMapper.xml" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/classes/mapper/YFileMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/template/home/index.html" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/template/home/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/template/news/newDetail.html" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/template/news/newDetail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/template/news/newShowMyself.html" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/template/news/newShowMyself.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/WEB-INF/template/news/newsEditIndex.html" afterPath="$PROJECT_DIR$/target/fightting/WEB-INF/template/news/newsEditIndex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/logs/error.log" afterPath="$PROJECT_DIR$/target/fightting/logs/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/logs/info.log" afterPath="$PROJECT_DIR$/target/fightting/logs/info.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/public/css/example.css" afterPath="$PROJECT_DIR$/target/fightting/public/css/example.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/public/js/artEditor.js" afterPath="$PROJECT_DIR$/target/fightting/public/js/artEditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/fightting/public/js/newsEditIndex.js" afterPath="$PROJECT_DIR$/target/fightting/public/js/newsEditIndex.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    </list>
     <ignored path="fightting.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,6 +228,22 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - fighting@122.9.34.125(个人服务器)" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -32,13 +253,168 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NewsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/NewsService.java">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="270">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/template/home/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2460">
+              <caret line="164" column="65" selection-start-line="164" selection-start-column="47" selection-end-line="164" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#\slist#0;n#a#0;n#\sif#1;n#\slist#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#\slist#0;n#p#1;n#section#0;n#section#0;n#div#0;n#\sif#2;n#\slist#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#\slist#0;n#p#1;n#section#0;n#section#0;n#div#0;n#\sif#3;n#\slist#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newDetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newDetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="58" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="58" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fighting.n_document" pinned="false" current-in-tab="true">
+        <entry file="dbDummy://dbtable:/1e60d1d1/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/fighting.n_document">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WechatServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/WechatServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#5460#5461#0" expanded="false" />
+                <element signature="e#5485#5486#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NDoucument.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/entity/NDoucument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#433#434#0" expanded="false" />
+                <element signature="e#462#463#0" expanded="false" />
+                <element signature="e#511#512#0" expanded="false" />
+                <element signature="e#547#548#0" expanded="false" />
+                <element signature="e#603#604#0" expanded="false" />
+                <element signature="e#628#629#0" expanded="false" />
+                <element signature="e#665#666#0" expanded="false" />
+                <element signature="e#693#694#0" expanded="false" />
+                <element signature="e#727#728#0" expanded="false" />
+                <element signature="e#757#758#0" expanded="false" />
+                <element signature="e#803#804#0" expanded="false" />
+                <element signature="e#841#842#0" expanded="false" />
+                <element signature="e#873#874#0" expanded="false" />
+                <element signature="e#901#902#0" expanded="false" />
+                <element signature="e#943#944#0" expanded="false" />
+                <element signature="e#977#978#0" expanded="false" />
+                <element signature="e#1011#1012#0" expanded="false" />
+                <element signature="e#1040#1041#0" expanded="false" />
+                <element signature="e#1085#1086#0" expanded="false" />
+                <element signature="e#1121#1122#0" expanded="false" />
+                <element signature="e#1156#1157#0" expanded="false" />
+                <element signature="e#1189#1190#0" expanded="false" />
+                <element signature="e#1239#1240#0" expanded="false" />
+                <element signature="e#1283#1284#0" expanded="false" />
+                <element signature="e#1318#1319#0" expanded="false" />
+                <element signature="e#1351#1352#0" expanded="false" />
+                <element signature="e#1401#1402#0" expanded="false" />
+                <element signature="e#1445#1446#0" expanded="false" />
+                <element signature="e#1476#1477#0" expanded="false" />
+                <element signature="e#1503#1504#0" expanded="false" />
+                <element signature="e#1543#1544#0" expanded="false" />
+                <element signature="e#1575#1576#0" expanded="false" />
+                <element signature="e#1606#1607#0" expanded="false" />
+                <element signature="e#1633#1634#0" expanded="false" />
+                <element signature="e#1673#1674#0" expanded="false" />
+                <element signature="e#1705#1706#0" expanded="false" />
+                <element signature="e#1735#1736#0" expanded="false" />
+                <element signature="e#1761#1762#0" expanded="false" />
+                <element signature="e#1799#1800#0" expanded="false" />
+                <element signature="e#1829#1830#0" expanded="false" />
+                <element signature="e#1866#1867#0" expanded="false" />
+                <element signature="e#1898#1899#0" expanded="false" />
+                <element signature="e#1949#1950#0" expanded="false" />
+                <element signature="e#1991#1992#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YFileMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/dao/YFileMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YFileMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/YFileMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2880">
+              <caret line="192" column="12" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="12" />
+              <folding>
+                <marker date="1478179051000" expanded="true" signature="3868:3970" ph="select from y_file" />
+                <marker date="1478179051000" expanded="true" signature="4057:4113" ph="delete from " />
+                <marker date="1478179051000" expanded="true" signature="4221:4239" ph="delete from " />
+                <marker date="1478179051000" expanded="true" signature="4424:4821" ph="insert into y_file... " />
+                <marker date="1478179051000" expanded="true" signature="6514:6541" ph="select count... y_file" />
+                <marker date="1478179051000" expanded="true" signature="6731:6842" ph="select from y_file" />
+                <marker date="1478179051000" expanded="true" signature="6943:7065" ph="select from y_file" />
+                <marker date="1478179051000" expanded="true" signature="8302:8767" ph="update y_fil... " />
+                <marker date="1478179051000" expanded="true" signature="8983:9797" ph="update y_fil... " />
+                <marker date="1478179051000" expanded="true" signature="9901:10306" ph="update y_fil... " />
               </folding>
             </state>
           </provider>
@@ -47,122 +423,12 @@
       <file leaf-file-name="newsEditIndex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newsEditIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+            <state relative-caret-position="900">
+              <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="artEditor.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/artEditor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
-              <folding>
-                <marker date="1476095776000" expanded="true" signature="1122:1132" ph="..." />
-                <marker date="1476095776000" expanded="true" signature="1926:1936" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/FileServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/template/home/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
-              <folding>
-                <element signature="e#4879#4885#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/interceptor/PageInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1770">
-              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <marker date="1471428696000" expanded="true" signature="5607:5650" ph="select count... missingValue" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/NewsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NDoucumentMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NDoucumentMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2730">
-              <caret line="182" column="19" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
-              <folding>
-                <marker date="1476268636000" expanded="true" signature="4711:4827" ph="select from n_document" />
-                <marker date="1476268636000" expanded="true" signature="4917:4977" ph="delete from " />
-                <marker date="1476268636000" expanded="true" signature="5095:5117" ph="delete from " />
-                <marker date="1476268636000" expanded="true" signature="5322:5645" ph="insert into n_document... " />
-                <marker date="1476268636000" expanded="true" signature="7432:7463" ph="select count... n_document" />
-                <marker date="1476268636000" expanded="true" signature="7690:7711" ph="SELECT from n_document" />
-                <marker date="1476268636000" expanded="true" signature="7690:8124" ph="SELECT d.id,... n_document" />
-                <marker date="1476268636000" expanded="true" signature="7966:8051" ph="SELECT * FRO... y_file" />
-                <marker date="1476268636000" expanded="true" signature="8230:8368" ph="SELECT d.id,... n_document" />
-                <marker date="1476268636000" expanded="true" signature="8231:8368" ph="select from n_document" />
-                <marker date="1476268636000" expanded="true" signature="8356:8368" ph="select from n_document" />
-                <marker date="1476268636000" expanded="true" signature="9570:9962" ph="update n_doc... " />
-                <marker date="1476268636000" expanded="true" signature="10202:10972" ph="update n_doc... " />
-                <marker date="1476268636000" expanded="true" signature="11084:11414" ph="update n_doc... " />
-                <marker date="1476268636000" expanded="true" signature="11522:11858" ph="update n_doc... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4d9d1464-465e-41a3-a0e5-1acf8d57eac6/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="20" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -178,6 +444,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -186,57 +455,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/ArrayList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/ArrayListTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/dao/YImageEntityMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/ImageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/dto/AccessToken.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/dto/WeChat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/SignUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/MessageUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/WeixinController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/public/jquery.qeditor-master/dist/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/public/css/index.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/entity/OrderEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/newsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/Jsonable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/JsonTool.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/RedisService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/RedisServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/SerializeTool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/RedisService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/interceptor/PageInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/dto/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newShowMyself.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/FtpService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/public/css/newsEditIndex.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/serviceModel/File.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/public/js/artEditor.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/FileUitl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/FileService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/serviceModel/FileModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/YFileMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/FileServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/dao/NDoucumentMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/public/js/newsEditIndex.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newsEditIndex.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/NewsService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newDetail.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/NewsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/NewsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/HomeController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4d9d1464-465e-41a3-a0e5-1acf8d57eac6/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/interceptor/MyFreeMarkerView.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newShowMyself.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/weixin/req/LinkMessageRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/MessageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/WechatService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/WechatController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/SimSimiService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/SimSimiService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/SimSimiServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/ChatService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/ChatServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/css/newDetail.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/css/example.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/FileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/FileUitl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/FileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/WechatServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/logs/info.log" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/js/artEditor.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/js/newsEditIndex.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/js/app_bs3.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/css/newsDetail.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/css/weui.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/model/Response.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/common/Response.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/TagService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/TagServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/dao/TagMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TagMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/js/citynames.json" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/js/bootstrap-tagsinput.min.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/dao/YFileMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/entity/NDoucument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/NewsServiceImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/NDoucumentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/YFileMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/config.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/home/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newDetail.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newsEditIndex.html" />
       </list>
     </option>
   </component>
@@ -272,6 +541,28 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SerializableHasSerialVersionUIDField</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -298,7 +589,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -315,6 +605,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fightting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fightting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fightting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -495,122 +799,6 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -711,202 +899,47 @@
               <option name="myItemId" value="fightting" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fightting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="Dou&#9;PSI&#9;JAVA://com.youdows.fightting.dao.NDoucumentMapper&#10;index.css&#9;FILE&#9;file:///Users/youxiaoshuang/Documents/workspaces/fightting/src/main/webapp/public/css/index.css&#10;settings&#9;ACTION&#9;Database.Settings&#10;setting&#9;ACTION&#9;Database.Settings&#10;main&#9;PSI&#9;JAVA://com.youdows.fightting.service.impl.MainTest" />
+    <property name="SearchEverywhereHistoryKey" value="springm&#9;FILE&#9;file:///Users/youxiaoshuang/Documents/workspaces/fightting/src/main/resources/config/spring-mvc.xml&#10;Dou&#9;PSI&#9;JAVA://com.youdows.fightting.dao.NDoucumentMapper&#10;index.css&#9;FILE&#9;file:///Users/youxiaoshuang/Documents/workspaces/fightting/src/main/webapp/public/css/index.css&#10;settings&#9;ACTION&#9;Database.Settings&#10;setting&#9;ACTION&#9;Database.Settings&#10;main&#9;PSI&#9;JAVA://com.youdows.fightting.service.impl.MainTest" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../wukong_workspaces/weixinMVC" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/public/js" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.youdows.fightting.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/upload" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/public/js" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/public/js/fileinput" />
       <recent name="$PROJECT_DIR$/src/main/webapp/public/images" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/public/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/public/js" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/youdows/fightting" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.fightting [tomcat7:run]">
-    <configuration default="false" name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.youdows.fightting.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.youdows.fightting.service.impl.ThreadTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="fightting" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="OrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.youdows.fightting.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.youdows.fightting.service.impl.OrderTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="fightting" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.本地server">
     <configuration default="false" name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.youdows.fightting.service.impl.*" />
+          <option name="PATTERN" value="com.youdows.fightting.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -926,7 +959,7 @@
     <configuration default="false" name="ImageServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.youdows.fightting.service.impl.*" />
+          <option name="PATTERN" value="com.youdows.fightting.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -965,6 +998,46 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="SimSimiServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.youdows.fightting.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.youdows.fightting.service.impl.SimSimiServiceImpl" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="fightting" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ChatServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.youdows.fightting.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.youdows.fightting.service.impl.ChatServiceImpl" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="fightting" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.33" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home">
@@ -1738,19 +1811,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.本地server" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ThreadTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.OrderTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ArrayListTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ImageServiceImpl" />
-      <item index="5" class="java.lang.String" itemvalue="Maven.fightting [tomcat7:run]" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ArrayListTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ImageServiceImpl" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.fightting [tomcat7:run]" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SimSimiServiceImpl" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ChatServiceImpl" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Maven.fightting [tomcat7:run]" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ImageServiceImpl" />
-        <item index="2" class="java.lang.String" itemvalue="Application.ArrayListTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.OrderTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ThreadTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ChatServiceImpl" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SimSimiServiceImpl" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ImageServiceImpl" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ArrayListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1818,11 +1891,27 @@
       <workItem from="1476153698748" duration="3747000" />
       <workItem from="1476253562259" duration="11205000" />
       <workItem from="1476324150767" duration="755000" />
+      <workItem from="1476412236101" duration="9343000" />
+      <workItem from="1476681245710" duration="11977000" />
+      <workItem from="1476760034344" duration="106000" />
+      <workItem from="1477300764583" duration="3411000" />
+      <workItem from="1477387786373" duration="8670000" />
+      <workItem from="1477447791544" duration="14000" />
+      <workItem from="1477466937475" duration="227000" />
+      <workItem from="1477894360394" duration="421000" />
+      <workItem from="1477896199270" duration="98000" />
+      <workItem from="1477896384213" duration="7301000" />
+      <workItem from="1477980348847" duration="138000" />
+      <workItem from="1478058495127" duration="2764000" />
+      <workItem from="1478152638450" duration="267000" />
+      <workItem from="1478153080942" duration="18806000" />
+      <workItem from="1478232110768" duration="7504000" />
+      <workItem from="1478487570785" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162267000" />
+    <option name="totallyTimeSpent" value="233324000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1836,40 +1925,40 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3819277" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612056" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43493977" sideWeight="0.5028612" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31688127" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31402004" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28674698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3272727" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28846154" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28554216" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16094421" sideWeight="0.46606335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25965664" sideWeight="0.46606335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24140625" sideWeight="0.52522933" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08941345" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32229403" sideWeight="0.5339367" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39156628" sideWeight="0.49713877" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32229403" sideWeight="0.5339367" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1453958" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32409638" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612056" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36177886" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21204819" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1919,12 +2008,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/main/webapp/public/js/artEditor.js</url>
-          <line>25</line>
-          <option name="timeStamp" value="46" />
+          <url>file://$PROJECT_DIR$/src/main/webapp/WEB-INF/template/home/index.html</url>
+          <line>58</line>
+          <option name="timeStamp" value="85" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="73" />
+      <option name="time" value="86" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1933,300 +2022,344 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/b093fe6d98f94c0a87918ed02184e0bb.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/13ac3d5b87f7441eb935535050987982.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/listener/ConnectionListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/css/bootstrap-tagsinput.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/c81662f3cd61472598f0e316367d8512.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/aaa9052b645a44fcb237f180bd313ff2.jpg" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/bootstrap-tagsinput-angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="893" column="0" selection-start-line="893" selection-start-column="0" selection-end-line="893" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/abd24637be35466aaac594ae73979634.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/e23946cc7d7a4d90a8806322e7a50a10.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/6848bdacebcb4448aacbda31ae82a639.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/4b158a19e6ba4eb4a3faa0c6ac661b4d.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/7ce775181b3443dcada4a94d37d0cc6c.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/FileUitl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/cities.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="-1030">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/dao/YFileMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/css/weui.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/artEditor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="534">
+          <caret line="39" column="78" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/entity/NDoucumentExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/css/newsDetail.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/1e60d1d1/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/fighting.n_document">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/FileService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="15">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/serviceModel/FileModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/model/Response.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/common/Response.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/YFileMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-          <folding>
-            <marker date="1476104597000" expanded="true" signature="3868:3970" ph="select from y_file" />
-            <marker date="1476104597000" expanded="true" signature="4057:4113" ph="delete from " />
-            <marker date="1476104597000" expanded="true" signature="4221:4239" ph="delete from " />
-            <marker date="1476104597000" expanded="true" signature="4424:4821" ph="insert into y_file... " />
-            <marker date="1476104597000" expanded="true" signature="6514:6541" ph="select count... y_file" />
-            <marker date="1476104597000" expanded="true" signature="7867:8332" ph="update y_fil... " />
-            <marker date="1476104597000" expanded="true" signature="8548:9362" ph="update y_fil... " />
-            <marker date="1476104597000" expanded="true" signature="9466:9871" ph="update y_fil... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/f9c7bdf9cfd343af8f9303d466b4c79a.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/0b81fa6624a946a5835a2da200df3d6d.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/0c49a89ffcd34325a1f1ad1c53716ae9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/2c710372f72a41ba8bb30b0dad9fb153.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/2c8061d1f76543bb8e2c8ab7f81dc51f.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/3c59714c2f1f4fd6b6f72d4fef6ade08.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/05af46e5e35a45d3b75df2f5a2308127.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/78ecb11ea5204db3a3546187a7b67064.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/4ea8feb5cbae419da63f66e684fe22d0.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/51ae2ce18e3749ec82140200e157884a.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/upload/4a213e1f47a64bf7b135f85ab0b3f6dd.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/dao/NDoucumentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/YImageEntityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <marker date="1458552750000" expanded="true" signature="884:997" ph="select from y_image" />
-            <marker date="1458552750000" expanded="true" signature="1073:1138" ph="select from y_image" />
-            <marker date="1458552750000" expanded="true" signature="1216:1319" ph="select from y_image" />
-            <marker date="1458552750000" expanded="true" signature="1407:1474" ph="delete from " />
-            <marker date="1458552750000" expanded="true" signature="1573:1817" ph="insert into y_image... " />
-            <marker date="1458552750000" expanded="true" signature="3036:3545" ph="update y_ima... " />
-            <marker date="1458552750000" expanded="true" signature="3656:3915" ph="update y_ima... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/ImageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.5.RELEASE/spring-web-4.0.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/NewsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" column="35" selection-start-line="25" selection-start-column="3" selection-end-line="26" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <element signature="e#713#724#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newDetail.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/dao/TagMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/179ff4f3-369a-4abe-bd1e-4af4d82d11c7/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/entity/NDoucument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-          <folding>
-            <element signature="e#1521#1522#0" expanded="false" />
-            <element signature="e#1559#1560#0" expanded="false" />
-            <element signature="e#1589#1590#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/FileServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/newsEditIndex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="810">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/NewsService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TagMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="78">
+          <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newsEditIndex.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/util/JsonTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1320">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/artEditor.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/TagService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
-          <folding>
-            <marker date="1476095776000" expanded="true" signature="1122:1132" ph="..." />
-            <marker date="1476095776000" expanded="true" signature="1926:1936" ph="..." />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/editormd/lib/flowchart.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="4" column="12469" selection-start-line="4" selection-start-column="12469" selection-end-line="4" selection-end-column="12469" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/editormd/lib/codemirror/addon/hint/html-hint.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="329" column="113" selection-start-line="329" selection-start-column="113" selection-end-line="329" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk15.jar!/net/sf/json/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/1e60d1d1/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/fighting.tag">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/citynames.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/app_bs3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/bootstrap-tagsinput.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="273" column="43" selection-start-line="273" selection-start-column="34" selection-end-line="273" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/NewsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NDoucumentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2505">
+          <caret line="167" column="39" selection-start-line="167" selection-start-column="39" selection-end-line="167" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/TagServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/NewsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="48" column="52" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/entity/YFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/1e60d1d1/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/fighting.y_file">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/1e60d1d1/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/fighting.n_document">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/1e60d1d1/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/fighting.n_document">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/1e60d1d1/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/fighting.n_document">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/1e60d1d1/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/fighting.n_document">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/1e60d1d1/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/fighting.n_document">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/1e60d1d1/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/fighting.n_document">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/1e60d1d1/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/fighting.n_document">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="29" />
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -2235,64 +2368,151 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/template/home/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+        <state relative-caret-position="2460">
+          <caret line="164" column="65" selection-start-line="164" selection-start-column="47" selection-end-line="164" selection-end-column="65" />
           <folding>
-            <element signature="e#4879#4885#0" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#\slist#0;n#a#0;n#\sif#1;n#\slist#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#\slist#0;n#p#1;n#section#0;n#section#0;n#div#0;n#\sif#2;n#\slist#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#\slist#0;n#p#1;n#section#0;n#section#0;n#div#0;n#\sif#3;n#\slist#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/interceptor/PageInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newDetail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        <state relative-caret-position="600">
+          <caret line="40" column="58" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1471428696000" expanded="true" signature="5607:5650" ph="select count... missingValue" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/NewsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/NDoucumentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="182" column="19" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
-          <folding>
-            <marker date="1476268636000" expanded="true" signature="4711:4827" ph="select from n_document" />
-            <marker date="1476268636000" expanded="true" signature="4917:4977" ph="delete from " />
-            <marker date="1476268636000" expanded="true" signature="5095:5117" ph="delete from " />
-            <marker date="1476268636000" expanded="true" signature="5322:5645" ph="insert into n_document... " />
-            <marker date="1476268636000" expanded="true" signature="7432:7463" ph="select count... n_document" />
-            <marker date="1476268636000" expanded="true" signature="7690:7711" ph="SELECT from n_document" />
-            <marker date="1476268636000" expanded="true" signature="7690:8124" ph="SELECT d.id,... n_document" />
-            <marker date="1476268636000" expanded="true" signature="7966:8051" ph="SELECT * FRO... y_file" />
-            <marker date="1476268636000" expanded="true" signature="8230:8368" ph="SELECT d.id,... n_document" />
-            <marker date="1476268636000" expanded="true" signature="8231:8368" ph="select from n_document" />
-            <marker date="1476268636000" expanded="true" signature="8356:8368" ph="select from n_document" />
-            <marker date="1476268636000" expanded="true" signature="9570:9962" ph="update n_doc... " />
-            <marker date="1476268636000" expanded="true" signature="10202:10972" ph="update n_doc... " />
-            <marker date="1476268636000" expanded="true" signature="11084:11414" ph="update n_doc... " />
-            <marker date="1476268636000" expanded="true" signature="11522:11858" ph="update n_doc... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4d9d1464-465e-41a3-a0e5-1acf8d57eac6/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="dbDummy://dbtable:/1e60d1d1/f0b714b7-cb1a-43a3-b9a7-fc3644c0e754/fighting.n_document">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="20" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/service/impl/WechatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#5460#5461#0" expanded="false" />
+            <element signature="e#5485#5486#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/entity/NDoucument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
+            <element signature="e#462#463#0" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
+            <element signature="e#547#548#0" expanded="false" />
+            <element signature="e#603#604#0" expanded="false" />
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#665#666#0" expanded="false" />
+            <element signature="e#693#694#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
+            <element signature="e#757#758#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#841#842#0" expanded="false" />
+            <element signature="e#873#874#0" expanded="false" />
+            <element signature="e#901#902#0" expanded="false" />
+            <element signature="e#943#944#0" expanded="false" />
+            <element signature="e#977#978#0" expanded="false" />
+            <element signature="e#1011#1012#0" expanded="false" />
+            <element signature="e#1040#1041#0" expanded="false" />
+            <element signature="e#1085#1086#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+            <element signature="e#1189#1190#0" expanded="false" />
+            <element signature="e#1239#1240#0" expanded="false" />
+            <element signature="e#1283#1284#0" expanded="false" />
+            <element signature="e#1318#1319#0" expanded="false" />
+            <element signature="e#1351#1352#0" expanded="false" />
+            <element signature="e#1401#1402#0" expanded="false" />
+            <element signature="e#1445#1446#0" expanded="false" />
+            <element signature="e#1476#1477#0" expanded="false" />
+            <element signature="e#1503#1504#0" expanded="false" />
+            <element signature="e#1543#1544#0" expanded="false" />
+            <element signature="e#1575#1576#0" expanded="false" />
+            <element signature="e#1606#1607#0" expanded="false" />
+            <element signature="e#1633#1634#0" expanded="false" />
+            <element signature="e#1673#1674#0" expanded="false" />
+            <element signature="e#1705#1706#0" expanded="false" />
+            <element signature="e#1735#1736#0" expanded="false" />
+            <element signature="e#1761#1762#0" expanded="false" />
+            <element signature="e#1799#1800#0" expanded="false" />
+            <element signature="e#1829#1830#0" expanded="false" />
+            <element signature="e#1866#1867#0" expanded="false" />
+            <element signature="e#1898#1899#0" expanded="false" />
+            <element signature="e#1949#1950#0" expanded="false" />
+            <element signature="e#1991#1992#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/youdows/fightting/dao/YFileMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/YFileMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="192" column="12" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="12" />
+          <folding>
+            <marker date="1478179051000" expanded="true" signature="3868:3970" ph="select from y_file" />
+            <marker date="1478179051000" expanded="true" signature="4057:4113" ph="delete from " />
+            <marker date="1478179051000" expanded="true" signature="4221:4239" ph="delete from " />
+            <marker date="1478179051000" expanded="true" signature="4424:4821" ph="insert into y_file... " />
+            <marker date="1478179051000" expanded="true" signature="6514:6541" ph="select count... y_file" />
+            <marker date="1478179051000" expanded="true" signature="6731:6842" ph="select from y_file" />
+            <marker date="1478179051000" expanded="true" signature="6943:7065" ph="select from y_file" />
+            <marker date="1478179051000" expanded="true" signature="8302:8767" ph="update y_fil... " />
+            <marker date="1478179051000" expanded="true" signature="8983:9797" ph="update y_fil... " />
+            <marker date="1478179051000" expanded="true" signature="9901:10306" ph="update y_fil... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/template/news/newsEditIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

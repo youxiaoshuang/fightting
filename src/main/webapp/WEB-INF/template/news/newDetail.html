@@ -3,27 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
-    <title>WeUI</title>
+    <title>${nDoucument.title}-日大侠-为宜昌人量身设计</title>
     <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/0.4.3/weui.min.css"/>
     <link rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/1.0.2/weui.min.css"/>
+    <link rel="stylesheet" href="${ctx}/public/css/newsDetail.css"/>
 
 </head>
 <body>
-<div class="page">
-    <div class="page__hd">
-        <h1 class="page__title">${nDoucument.title}</h1>
-    </div>
+<div class="hd">
+    <h1 class="page_title">${nDoucument.title}</h1>
+    <p class="page_desc">${nDoucument.createtime?string("yyyy-MM-dd HH:mm")}</p>
     <div class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
         <span class="weui-loadmore__tips"></span>
-        <p class="page__desc">${nDoucument.desc}</p>
     </div>
+    <p class="page_desc">${nDoucument.desc}</p>
+</div>
+<div class="page">
+    <div class="page__hd">
+    </div>
+
     <div class="page__bd">
-        ${nDoucument.content}
+        <div class="page_document">
+            ${nDoucument.content}
+        </div>
     </div>
     <div class="weui-loadmore weui-loadmore_line weui-loadmore_dot">
         <span class="weui-loadmore__tips"></span>
     </div>
 
+</div>
+<div class="weui-tabbar" style="position: fixed; bottom: 0; opacity: 1; _position: absolute;">
+    <a href="${ctx}/news/index" class="weui-tabbar__item">
+        <img src="${ctx}/public/images/icon_nav_panel.png" alt="" class="weui-tabbar__icon">
+        <p class="weui-tabbar__label">发文</p>
+    </a>
+    <a href="${ctx}/" class="weui-tabbar__item">
+        <img src="${ctx}/public/images/icon_nav_button.png " alt="" class="weui-tabbar__icon weui-bar__item_on">
+        <p class="weui-tabbar__label">主页</p>
+    </a>
+    <a href="javascript:;" class="weui-tabbar__item">
+        <img src="${ctx}/public/images/icon_nav_panel.png" alt="" class="weui-tabbar__icon">
+        <p class="weui-tabbar__label">我</p>
+    </a>
 </div>
 </body>
 </html>

@@ -1,4 +1,6 @@
+var ctx;//项目路径
 $(function () {
+    ctx = $('#ctx').val();
     //上传图片
     "use strict";
     var docCode = $('#docCode').val();
@@ -6,7 +8,7 @@ $(function () {
         imgTar: '#imageUpload',
         limitSize: 5,   // 兆
         showServer: true,
-        uploadUrl: '/fileCenter/uploadFile',
+        uploadUrl: ctx+'/fileCenter/uploadFile',
         data: {
             fileType: '.jpg',
             docCode: docCode
@@ -32,7 +34,7 @@ function sub() {
     var content = getContent();
     var docCode = $('#docCode').val();
     var desc = $('#desc').val();
-    var url = "/news/subNews"
+    var url = ctx+"/news/subNews"
     var param = {
         content: content,
         title : title,
@@ -40,7 +42,8 @@ function sub() {
         desc : desc
     }
     $.post(url, param, function (data) {
-      console.log(data)
+      console.log(data);
+        window.location.href = ctx+'/';
     });
 }
 
@@ -49,3 +52,4 @@ function getContent() {
     console.info(content);
     return content;
 }
+

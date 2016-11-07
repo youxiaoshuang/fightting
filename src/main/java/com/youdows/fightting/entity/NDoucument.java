@@ -1,6 +1,7 @@
 package com.youdows.fightting.entity;
 
 import java.util.Date;
+import java.util.List;
 
 public class NDoucument {
     private Integer id;
@@ -18,6 +19,18 @@ public class NDoucument {
     private Date createtime;
 
     private String url;
+
+    private Integer imageSize;
+
+    private List<YFile> images;
+
+    public List<YFile> getImages() {
+        return images;
+    }
+
+    public void setImages(List<YFile> images) {
+        this.images = images;
+    }
 
     private String uuid;
 
@@ -91,5 +104,13 @@ public class NDoucument {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public Integer getImageSize() {
+        return imageSize;
+    }
+
+    public void setImageSize(Integer imageSize) {
+        this.imageSize = imageSize;
     }
 }

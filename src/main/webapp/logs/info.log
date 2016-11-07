@@ -5445,8 +5445,8 @@ Caused by: java.net.ConnectException: Connection refused
 [2016-10-12 15:43:29,307] INFO  -->> socket.io服务已启动
 [2016-10-12 15:43:29,307] INFO  -->> SocketIO server started at port: 8088
 [2016-10-12 16:13:33,276] INFO  -->> ClassTemplateLoader for Spring macros added to FreeMarker configuration
-[2016-10-12 16:31:47,941] INFO  -->> 传入新闻<img src="http://10.0.93.65:9090//upload/2c710372f72a41ba8bb30b0dad9fb153.jpg" style="width:90%;"><br><div>专为宜昌人量身定制，仅凭一颗赤子之心</div>
-[2016-10-12 16:31:48,097] INFO  -->> 插入返回{"id":null,"content":"<img src=\"http://10.0.93.65:9090//upload/2c710372f72a41ba8bb30b0dad9fb153.jpg\" style=\"width:90%;\"><br><div>专为宜昌人量身定制，仅凭一颗赤子之心</div>","title":"宜昌日大侠正式上线","desc":"福利与广大宜昌人民","status":1,"updatetime":null,"createtime":1476261107945,"uuid":"3b31a438e91741758e9e27e347c95f2d"}
+[2016-10-12 16:31:47,941] INFO  -->> 传入新闻<img src="http://10.0.93.65:9090//upload/2c710372f72a41ba8bb30b0dad9fb153.jpg" style="width:90%;"><br><div>专为宜昌人量身设计，仅凭一颗赤子之心</div>
+[2016-10-12 16:31:48,097] INFO  -->> 插入返回{"id":null,"content":"<img src=\"http://10.0.93.65:9090//upload/2c710372f72a41ba8bb30b0dad9fb153.jpg\" style=\"width:90%;\"><br><div>专为宜昌人量身设计，仅凭一颗赤子之心</div>","title":"宜昌日大侠正式上线","desc":"福利与广大宜昌人民","status":1,"updatetime":null,"createtime":1476261107945,"uuid":"3b31a438e91741758e9e27e347c95f2d"}
 [2016-10-12 16:44:11,919] INFO  -->> Root WebApplicationContext: initialization started
 [2016-10-12 16:44:12,088] INFO  -->> Refreshing Root WebApplicationContext: startup date [Wed Oct 12 16:44:12 CST 2016]; root of context hierarchy
 [2016-10-12 16:44:12,148] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
@@ -5924,3 +5924,796 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in 
 [2016-10-12 19:25:10,385] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/500.jsp] in DispatcherServlet with name 'springmvc'
 [2016-10-12 19:25:13,483] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/500.jsp] in DispatcherServlet with name 'springmvc'
 [2016-10-12 19:25:50,663] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/500.jsp] in DispatcherServlet with name 'springmvc'
+[2016-10-14 11:34:37,157] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 11:34:37,226] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 11:34:37 CST 2016]; root of context hierarchy
+[2016-10-14 11:34:37,261] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 11:34:37,670] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 11:34:37,858] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 11:34:37,869] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 11:34:37,953] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 11:34:38,127] ERROR -->> maxIdle is deprecated
+[2016-10-14 11:34:38,692] INFO  -->> {dataSource-1} inited
+[2016-10-14 11:34:39,530] INFO  -->> Root WebApplicationContext: initialization completed in 2372 ms
+[2016-10-14 11:34:39,604] INFO  -->> FrameworkServlet 'springmvc': initialization started
+[2016-10-14 11:34:39,607] INFO  -->> Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Oct 14 11:34:39 CST 2016]; parent: Root WebApplicationContext
+[2016-10-14 11:34:39,607] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mvc.xml]
+[2016-10-14 11:34:39,735] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 11:34:40,112] INFO  -->> Mapped "{[/fileCenter/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.serviceModel.FileModel com.youdows.fightting.controller.FileController.fileUpload(javax.servlet.http.HttpServletRequest,com.youdows.fightting.serviceModel.FileModel) throws java.io.IOException
+[2016-10-14 11:34:40,117] INFO  -->> Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.index()
+[2016-10-14 11:34:40,118] INFO  -->> Mapped "{[/nextPage/{page}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.newPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+[2016-10-14 11:34:40,119] INFO  -->> Mapped "{[/images/{imageName}/{imageType}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.getImages(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+[2016-10-14 11:34:40,120] INFO  -->> Mapped "{[/images/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.fileUpload(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+[2016-10-14 11:34:40,121] INFO  -->> Mapped "{[/news/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.index()
+[2016-10-14 11:34:40,121] INFO  -->> Mapped "{[/news/subNews],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.entity.NDoucument com.youdows.fightting.controller.NewsController.subNews(com.youdows.fightting.entity.NDoucument)
+[2016-10-14 11:34:40,121] INFO  -->> Mapped "{[/news/newShowMyself],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.showNews()
+[2016-10-14 11:34:40,122] INFO  -->> Mapped "{[/news/getNewsDetail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.getNewsDetail(java.lang.String)
+[2016-10-14 11:34:40,123] INFO  -->> Mapped "{[/test/list/{name}/{password}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.TestController.getProducts(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.youdows.fightting.entity.UserEntity) throws java.lang.Exception
+[2016-10-14 11:34:41,126] INFO  -->> Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2016-10-14 11:34:41,128] INFO  -->> Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[2016-10-14 11:34:41,405] INFO  -->> FrameworkServlet 'springmvc': initialization completed in 1801 ms
+[2016-10-14 11:34:49,616] INFO  -->> Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+[2016-10-14 11:34:50,020] INFO  -->> socket.io服务已启动
+[2016-10-14 11:34:50,020] INFO  -->> SocketIO server started at port: 8088
+[2016-10-14 11:38:28,327] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 11:38:28,459] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 11:38:28 CST 2016]; root of context hierarchy
+[2016-10-14 11:38:28,504] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 11:38:28,830] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 11:38:29,005] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 11:38:29,013] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 11:38:29,057] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 11:38:29,220] ERROR -->> maxIdle is deprecated
+[2016-10-14 11:38:29,597] INFO  -->> {dataSource-1} inited
+[2016-10-14 11:38:30,353] INFO  -->> Root WebApplicationContext: initialization completed in 2023 ms
+[2016-10-14 11:38:30,394] INFO  -->> FrameworkServlet 'springmvc': initialization started
+[2016-10-14 11:38:30,397] INFO  -->> Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Oct 14 11:38:30 CST 2016]; parent: Root WebApplicationContext
+[2016-10-14 11:38:30,398] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mvc.xml]
+[2016-10-14 11:38:30,522] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 11:38:30,751] INFO  -->> Mapped "{[/fileCenter/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.serviceModel.FileModel com.youdows.fightting.controller.FileController.fileUpload(javax.servlet.http.HttpServletRequest,com.youdows.fightting.serviceModel.FileModel) throws java.io.IOException
+[2016-10-14 11:38:30,754] INFO  -->> Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.index()
+[2016-10-14 11:38:30,754] INFO  -->> Mapped "{[/nextPage/{page}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.newPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+[2016-10-14 11:38:30,755] INFO  -->> Mapped "{[/images/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.fileUpload(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+[2016-10-14 11:38:30,755] INFO  -->> Mapped "{[/images/{imageName}/{imageType}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.getImages(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+[2016-10-14 11:38:30,757] INFO  -->> Mapped "{[/news/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.index()
+[2016-10-14 11:38:30,757] INFO  -->> Mapped "{[/news/newShowMyself],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.showNews()
+[2016-10-14 11:38:30,757] INFO  -->> Mapped "{[/news/subNews],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.entity.NDoucument com.youdows.fightting.controller.NewsController.subNews(com.youdows.fightting.entity.NDoucument)
+[2016-10-14 11:38:30,757] INFO  -->> Mapped "{[/news/getNewsDetail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.getNewsDetail(java.lang.String)
+[2016-10-14 11:38:30,758] INFO  -->> Mapped "{[/test/list/{name}/{password}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.TestController.getProducts(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.youdows.fightting.entity.UserEntity) throws java.lang.Exception
+[2016-10-14 11:38:31,270] INFO  -->> Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2016-10-14 11:38:31,273] INFO  -->> Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[2016-10-14 11:38:31,527] INFO  -->> FrameworkServlet 'springmvc': initialization completed in 1133 ms
+[2016-10-14 11:38:40,399] INFO  -->> Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+[2016-10-14 11:38:40,737] INFO  -->> socket.io服务已启动
+[2016-10-14 11:38:40,737] INFO  -->> SocketIO server started at port: 8088
+[2016-10-14 15:32:31,991] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 15:32:32,206] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 15:32:32 CST 2016]; root of context hierarchy
+[2016-10-14 15:32:32,282] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 15:32:32,641] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 15:32:32,964] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 15:32:32,977] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 15:32:33,054] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 15:32:33,270] ERROR -->> maxIdle is deprecated
+[2016-10-14 15:32:34,914] INFO  -->> {dataSource-1} inited
+[2016-10-14 15:32:36,142] INFO  -->> Root WebApplicationContext: initialization completed in 4151 ms
+[2016-10-14 15:32:36,223] INFO  -->> FrameworkServlet 'springmvc': initialization started
+[2016-10-14 15:32:36,227] INFO  -->> Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Oct 14 15:32:36 CST 2016]; parent: Root WebApplicationContext
+[2016-10-14 15:32:36,229] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mvc.xml]
+[2016-10-14 15:32:36,566] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 15:32:37,026] INFO  -->> Mapped "{[/fileCenter/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.serviceModel.FileModel com.youdows.fightting.controller.FileController.fileUpload(javax.servlet.http.HttpServletRequest,com.youdows.fightting.serviceModel.FileModel) throws java.io.IOException
+[2016-10-14 15:32:37,030] INFO  -->> Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.index()
+[2016-10-14 15:32:37,031] INFO  -->> Mapped "{[/nextPage/{page}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.newPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+[2016-10-14 15:32:37,037] INFO  -->> Mapped "{[/images/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.fileUpload(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+[2016-10-14 15:32:37,037] INFO  -->> Mapped "{[/images/{imageName}/{imageType}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.getImages(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+[2016-10-14 15:32:37,040] INFO  -->> Mapped "{[/news/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.index()
+[2016-10-14 15:32:37,040] INFO  -->> Mapped "{[/news/newShowMyself],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.showNews()
+[2016-10-14 15:32:37,040] INFO  -->> Mapped "{[/news/subNews],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.entity.NDoucument com.youdows.fightting.controller.NewsController.subNews(com.youdows.fightting.entity.NDoucument)
+[2016-10-14 15:32:37,040] INFO  -->> Mapped "{[/news/getNewsDetail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.getNewsDetail(java.lang.String)
+[2016-10-14 15:32:37,042] INFO  -->> Mapped "{[/test/list/{name}/{password}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.TestController.getProducts(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.youdows.fightting.entity.UserEntity) throws java.lang.Exception
+[2016-10-14 15:32:38,071] INFO  -->> Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2016-10-14 15:32:38,078] INFO  -->> Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[2016-10-14 15:32:38,545] INFO  -->> FrameworkServlet 'springmvc': initialization completed in 2322 ms
+[2016-10-14 15:32:44,199] ERROR -->> Ignore this exception
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'fighting.y_file.id' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2617)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2778)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2834)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2156)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2313)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227)
+	at com.youdows.fightting.interceptor.PageInterceptor.setPageParameter(PageInterceptor.java:130)
+	at com.youdows.fightting.interceptor.PageInterceptor.intercept(PageInterceptor.java:93)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:60)
+	at com.sun.proxy.$Proxy51.prepare(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:73)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	at com.sun.proxy.$Proxy31.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy34.selectByAllPage(Unknown Source)
+	at com.youdows.fightting.service.impl.NewsServiceImpl.findNews(NewsServiceImpl.java:43)
+	at com.youdows.fightting.controller.HomeController.index(HomeController.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-10-14 15:32:44,216] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/500.jsp] in DispatcherServlet with name 'springmvc'
+[2016-10-14 15:32:45,174] WARN  -->> No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'springmvc'
+[2016-10-14 15:32:45,176] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/404.jsp] in DispatcherServlet with name 'springmvc'
+[2016-10-14 15:32:46,223] INFO  -->> Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+[2016-10-14 15:32:46,458] INFO  -->> socket.io服务已启动
+[2016-10-14 15:32:46,459] INFO  -->> SocketIO server started at port: 8088
+[2016-10-14 16:11:42,422] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 16:11:42,512] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 16:11:42 CST 2016]; root of context hierarchy
+[2016-10-14 16:11:42,559] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 16:11:42,962] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 16:11:43,232] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 16:11:43,243] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 16:11:43,293] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 16:11:43,523] ERROR -->> maxIdle is deprecated
+[2016-10-14 16:11:46,801] INFO  -->> {dataSource-1} inited
+[2016-10-14 16:11:47,505] INFO  -->> Root WebApplicationContext: initialization completed in 5082 ms
+[2016-10-14 16:11:47,578] INFO  -->> FrameworkServlet 'springmvc': initialization started
+[2016-10-14 16:11:47,582] INFO  -->> Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Oct 14 16:11:47 CST 2016]; parent: Root WebApplicationContext
+[2016-10-14 16:11:47,583] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mvc.xml]
+[2016-10-14 16:11:47,768] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 16:11:48,242] INFO  -->> Mapped "{[/fileCenter/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.serviceModel.FileModel com.youdows.fightting.controller.FileController.fileUpload(javax.servlet.http.HttpServletRequest,com.youdows.fightting.serviceModel.FileModel) throws java.io.IOException
+[2016-10-14 16:11:48,246] INFO  -->> Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.index()
+[2016-10-14 16:11:48,246] INFO  -->> Mapped "{[/nextPage/{page}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.newPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+[2016-10-14 16:11:48,246] INFO  -->> Mapped "{[/images/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.fileUpload(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+[2016-10-14 16:11:48,247] INFO  -->> Mapped "{[/images/{imageName}/{imageType}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.getImages(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+[2016-10-14 16:11:48,249] INFO  -->> Mapped "{[/news/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.index()
+[2016-10-14 16:11:48,249] INFO  -->> Mapped "{[/news/subNews],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.entity.NDoucument com.youdows.fightting.controller.NewsController.subNews(com.youdows.fightting.entity.NDoucument)
+[2016-10-14 16:11:48,249] INFO  -->> Mapped "{[/news/newShowMyself],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.showNews()
+[2016-10-14 16:11:48,249] INFO  -->> Mapped "{[/news/getNewsDetail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.getNewsDetail(java.lang.String)
+[2016-10-14 16:11:48,250] INFO  -->> Mapped "{[/test/list/{name}/{password}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.TestController.getProducts(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.youdows.fightting.entity.UserEntity) throws java.lang.Exception
+[2016-10-14 16:11:48,874] INFO  -->> Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2016-10-14 16:11:48,877] INFO  -->> Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[2016-10-14 16:11:49,152] INFO  -->> FrameworkServlet 'springmvc': initialization completed in 1574 ms
+[2016-10-14 16:11:53,403] ERROR -->> Ignore this exception
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ';) as total' at line 15
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2617)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2778)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2834)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2156)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2313)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227)
+	at com.youdows.fightting.interceptor.PageInterceptor.setPageParameter(PageInterceptor.java:130)
+	at com.youdows.fightting.interceptor.PageInterceptor.intercept(PageInterceptor.java:93)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:60)
+	at com.sun.proxy.$Proxy51.prepare(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:73)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	at com.sun.proxy.$Proxy31.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy34.selectByAllPage(Unknown Source)
+	at com.youdows.fightting.service.impl.NewsServiceImpl.findNews(NewsServiceImpl.java:43)
+	at com.youdows.fightting.controller.HomeController.index(HomeController.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-10-14 16:11:53,425] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/500.jsp] in DispatcherServlet with name 'springmvc'
+[2016-10-14 16:11:57,568] INFO  -->> Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+[2016-10-14 16:11:57,756] INFO  -->> socket.io服务已启动
+[2016-10-14 16:11:57,756] INFO  -->> SocketIO server started at port: 8088
+[2016-10-14 16:14:40,080] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 16:14:40,230] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 16:14:40 CST 2016]; root of context hierarchy
+[2016-10-14 16:14:40,341] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 16:14:40,648] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 16:14:40,888] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 16:14:40,912] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 16:14:40,964] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 16:14:41,122] ERROR -->> maxIdle is deprecated
+[2016-10-14 16:14:43,710] INFO  -->> {dataSource-1} inited
+[2016-10-14 16:14:44,647] INFO  -->> Root WebApplicationContext: initialization completed in 4567 ms
+[2016-10-14 16:14:44,692] INFO  -->> FrameworkServlet 'springmvc': initialization started
+[2016-10-14 16:14:44,695] INFO  -->> Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Oct 14 16:14:44 CST 2016]; parent: Root WebApplicationContext
+[2016-10-14 16:14:44,696] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mvc.xml]
+[2016-10-14 16:14:44,842] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 16:14:45,137] INFO  -->> Mapped "{[/fileCenter/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.serviceModel.FileModel com.youdows.fightting.controller.FileController.fileUpload(javax.servlet.http.HttpServletRequest,com.youdows.fightting.serviceModel.FileModel) throws java.io.IOException
+[2016-10-14 16:14:45,139] INFO  -->> Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.index()
+[2016-10-14 16:14:45,140] INFO  -->> Mapped "{[/nextPage/{page}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.newPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+[2016-10-14 16:14:45,144] INFO  -->> Mapped "{[/images/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.fileUpload(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+[2016-10-14 16:14:45,144] INFO  -->> Mapped "{[/images/{imageName}/{imageType}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.getImages(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+[2016-10-14 16:14:45,147] INFO  -->> Mapped "{[/news/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.index()
+[2016-10-14 16:14:45,147] INFO  -->> Mapped "{[/news/subNews],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.entity.NDoucument com.youdows.fightting.controller.NewsController.subNews(com.youdows.fightting.entity.NDoucument)
+[2016-10-14 16:14:45,147] INFO  -->> Mapped "{[/news/newShowMyself],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.showNews()
+[2016-10-14 16:14:45,147] INFO  -->> Mapped "{[/news/getNewsDetail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.getNewsDetail(java.lang.String)
+[2016-10-14 16:14:45,149] INFO  -->> Mapped "{[/test/list/{name}/{password}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.TestController.getProducts(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.youdows.fightting.entity.UserEntity) throws java.lang.Exception
+[2016-10-14 16:14:45,775] INFO  -->> Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2016-10-14 16:14:45,778] INFO  -->> Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[2016-10-14 16:14:46,045] INFO  -->> FrameworkServlet 'springmvc': initialization completed in 1353 ms
+[2016-10-14 16:14:54,737] INFO  -->> Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+[2016-10-14 16:14:54,994] INFO  -->> socket.io服务已启动
+[2016-10-14 16:14:54,994] INFO  -->> SocketIO server started at port: 8088
+[2016-10-14 16:14:58,718] INFO  -->> ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2016-10-14 16:18:38,490] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/500.jsp] in DispatcherServlet with name 'springmvc'
+[2016-10-14 16:18:43,816] INFO  -->> 传入新闻啥打法上
+[2016-10-14 16:18:44,304] INFO  -->> 插入返回{"id":null,"content":"啥打法上","title":"飞碟说","desc":"法第三方阿三","status":1,"updatetime":null,"createtime":1476433123816,"url":null,"uuid":"aa91aca24187421dae4a9df70da1a1dd"}
+[2016-10-14 16:59:20,981] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 16:59:21,044] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 16:59:21 CST 2016]; root of context hierarchy
+[2016-10-14 16:59:21,071] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 16:59:21,411] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 16:59:21,637] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 16:59:21,669] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 16:59:21,720] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 16:59:21,872] ERROR -->> maxIdle is deprecated
+[2016-10-14 16:59:22,778] INFO  -->> {dataSource-1} inited
+[2016-10-14 16:59:23,639] INFO  -->> Root WebApplicationContext: initialization completed in 2657 ms
+[2016-10-14 16:59:23,725] INFO  -->> FrameworkServlet 'springmvc': initialization started
+[2016-10-14 16:59:23,738] INFO  -->> Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Oct 14 16:59:23 CST 2016]; parent: Root WebApplicationContext
+[2016-10-14 16:59:23,741] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mvc.xml]
+[2016-10-14 16:59:23,909] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 16:59:24,296] INFO  -->> Mapped "{[/fileCenter/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.serviceModel.FileModel com.youdows.fightting.controller.FileController.fileUpload(javax.servlet.http.HttpServletRequest,com.youdows.fightting.serviceModel.FileModel) throws java.io.IOException
+[2016-10-14 16:59:24,313] INFO  -->> Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.index()
+[2016-10-14 16:59:24,314] INFO  -->> Mapped "{[/nextPage/{page}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.newPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+[2016-10-14 16:59:24,316] INFO  -->> Mapped "{[/images/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.fileUpload(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+[2016-10-14 16:59:24,316] INFO  -->> Mapped "{[/images/{imageName}/{imageType}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.getImages(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+[2016-10-14 16:59:24,320] INFO  -->> Mapped "{[/news/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.index()
+[2016-10-14 16:59:24,320] INFO  -->> Mapped "{[/news/subNews],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.entity.NDoucument com.youdows.fightting.controller.NewsController.subNews(com.youdows.fightting.entity.NDoucument)
+[2016-10-14 16:59:24,320] INFO  -->> Mapped "{[/news/newShowMyself],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.showNews()
+[2016-10-14 16:59:24,320] INFO  -->> Mapped "{[/news/getNewsDetail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.getNewsDetail(java.lang.String)
+[2016-10-14 16:59:24,326] INFO  -->> Mapped "{[/test/list/{name}/{password}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.TestController.getProducts(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.youdows.fightting.entity.UserEntity) throws java.lang.Exception
+[2016-10-14 16:59:25,275] INFO  -->> Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2016-10-14 16:59:25,278] INFO  -->> Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[2016-10-14 16:59:25,557] INFO  -->> FrameworkServlet 'springmvc': initialization completed in 1832 ms
+[2016-10-14 16:59:33,693] INFO  -->> Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+[2016-10-14 16:59:34,170] INFO  -->> socket.io服务已启动
+[2016-10-14 16:59:34,170] INFO  -->> SocketIO server started at port: 8088
+[2016-10-14 16:59:44,449] INFO  -->> ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2016-10-14 17:00:09,071] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/500.jsp] in DispatcherServlet with name 'springmvc'
+[2016-10-14 17:01:55,285] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 17:01:55,520] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 17:01:55 CST 2016]; root of context hierarchy
+[2016-10-14 17:01:55,609] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 17:01:56,308] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 17:01:56,681] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 17:01:56,695] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:01:56,770] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 17:01:57,138] ERROR -->> maxIdle is deprecated
+[2016-10-14 17:02:01,118] INFO  -->> {dataSource-1} inited
+[2016-10-14 17:02:01,957] INFO  -->> Root WebApplicationContext: initialization completed in 6670 ms
+[2016-10-14 17:02:02,027] INFO  -->> FrameworkServlet 'springmvc': initialization started
+[2016-10-14 17:02:02,037] INFO  -->> Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Oct 14 17:02:02 CST 2016]; parent: Root WebApplicationContext
+[2016-10-14 17:02:02,037] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mvc.xml]
+[2016-10-14 17:02:02,268] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:02:02,562] INFO  -->> Mapped "{[/fileCenter/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.serviceModel.FileModel com.youdows.fightting.controller.FileController.fileUpload(javax.servlet.http.HttpServletRequest,com.youdows.fightting.serviceModel.FileModel) throws java.io.IOException
+[2016-10-14 17:02:02,577] INFO  -->> Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.index()
+[2016-10-14 17:02:02,578] INFO  -->> Mapped "{[/nextPage/{page}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.newPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+[2016-10-14 17:02:02,581] INFO  -->> Mapped "{[/images/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.fileUpload(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+[2016-10-14 17:02:02,582] INFO  -->> Mapped "{[/images/{imageName}/{imageType}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.getImages(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+[2016-10-14 17:02:02,587] INFO  -->> Mapped "{[/news/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.index()
+[2016-10-14 17:02:02,587] INFO  -->> Mapped "{[/news/subNews],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.entity.NDoucument com.youdows.fightting.controller.NewsController.subNews(com.youdows.fightting.entity.NDoucument)
+[2016-10-14 17:02:02,588] INFO  -->> Mapped "{[/news/getNewsDetail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.getNewsDetail(java.lang.String)
+[2016-10-14 17:02:02,589] INFO  -->> Mapped "{[/news/newShowMyself],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.showNews()
+[2016-10-14 17:02:02,595] INFO  -->> Mapped "{[/test/list/{name}/{password}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.TestController.getProducts(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.youdows.fightting.entity.UserEntity) throws java.lang.Exception
+[2016-10-14 17:02:03,403] INFO  -->> Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2016-10-14 17:02:03,406] INFO  -->> Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[2016-10-14 17:02:03,967] INFO  -->> FrameworkServlet 'springmvc': initialization completed in 1939 ms
+[2016-10-14 17:02:12,027] INFO  -->> Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+[2016-10-14 17:02:12,221] INFO  -->> socket.io服务已启动
+[2016-10-14 17:02:12,222] INFO  -->> SocketIO server started at port: 8088
+[2016-10-14 17:02:13,571] INFO  -->> ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2016-10-14 17:02:25,308] WARN  -->> No mapping found for HTTP request with URI [/news/$%7Bctx%7D/news/subNews] in DispatcherServlet with name 'springmvc'
+[2016-10-14 17:02:25,320] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/404.jsp] in DispatcherServlet with name 'springmvc'
+[2016-10-14 17:02:35,722] WARN  -->> No mapping found for HTTP request with URI [/news/$%7Bctx%7D/news/subNews] in DispatcherServlet with name 'springmvc'
+[2016-10-14 17:02:35,723] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/404.jsp] in DispatcherServlet with name 'springmvc'
+[2016-10-14 17:03:39,793] WARN  -->> No mapping found for HTTP request with URI [/news/$%7Bctx%7D/fileCenter/uploadFile] in DispatcherServlet with name 'springmvc'
+[2016-10-14 17:03:39,794] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/404.jsp] in DispatcherServlet with name 'springmvc'
+[2016-10-14 17:06:58,841] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 17:06:59,086] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 17:06:59 CST 2016]; root of context hierarchy
+[2016-10-14 17:06:59,150] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 17:06:59,483] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 17:06:59,715] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 17:06:59,730] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:06:59,826] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 17:07:00,003] ERROR -->> maxIdle is deprecated
+[2016-10-14 17:07:05,841] INFO  -->> {dataSource-1} inited
+[2016-10-14 17:07:06,721] INFO  -->> Root WebApplicationContext: initialization completed in 7879 ms
+[2016-10-14 17:07:06,814] INFO  -->> FrameworkServlet 'springmvc': initialization started
+[2016-10-14 17:07:06,818] INFO  -->> Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Oct 14 17:07:06 CST 2016]; parent: Root WebApplicationContext
+[2016-10-14 17:07:06,819] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mvc.xml]
+[2016-10-14 17:07:07,038] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:07:07,372] INFO  -->> Mapped "{[/fileCenter/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.serviceModel.FileModel com.youdows.fightting.controller.FileController.fileUpload(javax.servlet.http.HttpServletRequest,com.youdows.fightting.serviceModel.FileModel) throws java.io.IOException
+[2016-10-14 17:07:07,374] INFO  -->> Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.index()
+[2016-10-14 17:07:07,374] INFO  -->> Mapped "{[/nextPage/{page}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.newPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+[2016-10-14 17:07:07,376] INFO  -->> Mapped "{[/images/{imageName}/{imageType}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.getImages(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+[2016-10-14 17:07:07,376] INFO  -->> Mapped "{[/images/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.fileUpload(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+[2016-10-14 17:07:07,378] INFO  -->> Mapped "{[/news/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.index()
+[2016-10-14 17:07:07,378] INFO  -->> Mapped "{[/news/subNews],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.entity.NDoucument com.youdows.fightting.controller.NewsController.subNews(com.youdows.fightting.entity.NDoucument)
+[2016-10-14 17:07:07,378] INFO  -->> Mapped "{[/news/newShowMyself],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.showNews()
+[2016-10-14 17:07:07,379] INFO  -->> Mapped "{[/news/getNewsDetail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.getNewsDetail(java.lang.String)
+[2016-10-14 17:07:07,380] INFO  -->> Mapped "{[/test/list/{name}/{password}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.TestController.getProducts(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.youdows.fightting.entity.UserEntity) throws java.lang.Exception
+[2016-10-14 17:07:08,293] INFO  -->> Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2016-10-14 17:07:08,296] INFO  -->> Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[2016-10-14 17:07:08,596] INFO  -->> FrameworkServlet 'springmvc': initialization completed in 1781 ms
+[2016-10-14 17:07:14,631] INFO  -->> ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2016-10-14 17:07:16,794] INFO  -->> Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+[2016-10-14 17:07:16,962] INFO  -->> socket.io服务已启动
+[2016-10-14 17:07:16,963] INFO  -->> SocketIO server started at port: 8088
+[2016-10-14 17:13:41,593] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/500.jsp] in DispatcherServlet with name 'springmvc'
+[2016-10-14 17:15:31,789] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 17:15:31,912] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 17:15:31 CST 2016]; root of context hierarchy
+[2016-10-14 17:15:32,000] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 17:15:32,622] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 17:15:32,927] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 17:15:32,945] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:15:32,996] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 17:15:33,204] ERROR -->> maxIdle is deprecated
+[2016-10-14 17:15:35,006] INFO  -->> {dataSource-1} inited
+[2016-10-14 17:15:35,602] INFO  -->> {dataSource-1} closed
+[2016-10-14 17:15:35,606] ERROR -->> Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.youdows.fightting.service.impl.FileServiceImpl.httpPath; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'configProperties' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4797)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.youdows.fightting.service.impl.FileServiceImpl.httpPath; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'configProperties' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 22 more
+Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'configProperties' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:146)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.evaluateBeanDefinitionString(AbstractBeanFactory.java:1364)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:873)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:858)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 24 more
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1008E:(pos 0): Property or field 'configProperties' cannot be found on object of type 'org.springframework.beans.factory.config.BeanExpressionContext' - maybe not public?
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:215)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:85)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:78)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueRef(CompoundExpression.java:48)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:84)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:103)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:94)
+	at org.springframework.context.expression.StandardBeanExpressionResolver.evaluate(StandardBeanExpressionResolver.java:143)
+	... 28 more
+[2016-10-14 17:19:48,155] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 17:19:48,363] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 17:19:48 CST 2016]; root of context hierarchy
+[2016-10-14 17:19:48,420] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 17:19:48,748] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 17:19:49,071] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 17:19:49,101] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:19:49,172] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 17:19:49,383] ERROR -->> maxIdle is deprecated
+[2016-10-14 17:19:52,693] INFO  -->> {dataSource-1} inited
+[2016-10-14 17:19:53,303] INFO  -->> {dataSource-1} closed
+[2016-10-14 17:19:53,306] ERROR -->> Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.youdows.fightting.service.impl.FileServiceImpl.httpPath; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'httpPath' in string value "${httpPath}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4797)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.youdows.fightting.service.impl.FileServiceImpl.httpPath; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'httpPath' in string value "${httpPath}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 22 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'httpPath' in string value "${httpPath}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:194)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:158)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:802)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:871)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:858)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 24 more
+[2016-10-14 17:20:34,730] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 17:20:34,882] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 17:20:34 CST 2016]; root of context hierarchy
+[2016-10-14 17:20:34,933] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 17:20:35,191] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 17:20:35,420] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 17:20:35,431] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:20:35,482] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 17:20:35,664] ERROR -->> maxIdle is deprecated
+[2016-10-14 17:20:41,941] INFO  -->> {dataSource-1} inited
+[2016-10-14 17:20:42,463] INFO  -->> {dataSource-1} closed
+[2016-10-14 17:20:42,465] ERROR -->> Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.youdows.fightting.service.impl.FileServiceImpl.httpPath; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'httpPath' in string value "${httpPath}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4797)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.youdows.fightting.service.impl.FileServiceImpl.httpPath; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'httpPath' in string value "${httpPath}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 22 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'httpPath' in string value "${httpPath}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:194)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:158)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:802)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:871)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:858)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 24 more
+[2016-10-14 17:23:05,462] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 17:23:05,679] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 17:23:05 CST 2016]; root of context hierarchy
+[2016-10-14 17:23:05,851] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 17:23:06,282] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 17:23:06,724] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 17:23:06,764] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:23:06,876] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 17:23:07,154] ERROR -->> maxIdle is deprecated
+[2016-10-14 17:23:10,934] INFO  -->> {dataSource-1} inited
+[2016-10-14 17:23:11,600] INFO  -->> {dataSource-1} closed
+[2016-10-14 17:23:11,603] ERROR -->> Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.youdows.fightting.service.impl.FileServiceImpl.httpPath; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'sys[httpPath]' in string value "${sys[httpPath]}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:292)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:300)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:195)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:703)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4797)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5291)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private java.lang.String com.youdows.fightting.service.impl.FileServiceImpl.httpPath; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'sys[httpPath]' in string value "${sys[httpPath]}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:508)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:289)
+	... 22 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'sys[httpPath]' in string value "${sys[httpPath]}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:194)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:158)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:802)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:871)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:858)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:480)
+	... 24 more
+[2016-10-14 17:24:38,092] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 17:24:38,215] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 17:24:38 CST 2016]; root of context hierarchy
+[2016-10-14 17:24:38,303] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 17:24:38,620] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 17:24:38,948] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 17:24:38,961] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:24:39,027] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 17:24:39,323] ERROR -->> maxIdle is deprecated
+[2016-10-14 17:24:40,334] INFO  -->> {dataSource-1} inited
+[2016-10-14 17:24:41,284] INFO  -->> Root WebApplicationContext: initialization completed in 3192 ms
+[2016-10-14 17:24:41,371] INFO  -->> FrameworkServlet 'springmvc': initialization started
+[2016-10-14 17:24:41,392] INFO  -->> Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Oct 14 17:24:41 CST 2016]; parent: Root WebApplicationContext
+[2016-10-14 17:24:41,396] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mvc.xml]
+[2016-10-14 17:24:41,690] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:24:42,135] INFO  -->> Mapped "{[/fileCenter/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.serviceModel.FileModel com.youdows.fightting.controller.FileController.fileUpload(javax.servlet.http.HttpServletRequest,com.youdows.fightting.serviceModel.FileModel) throws java.io.IOException
+[2016-10-14 17:24:42,137] INFO  -->> Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.index()
+[2016-10-14 17:24:42,138] INFO  -->> Mapped "{[/nextPage/{page}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.newPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+[2016-10-14 17:24:42,139] INFO  -->> Mapped "{[/images/{imageName}/{imageType}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.getImages(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+[2016-10-14 17:24:42,139] INFO  -->> Mapped "{[/images/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.fileUpload(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+[2016-10-14 17:24:42,141] INFO  -->> Mapped "{[/news/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.index()
+[2016-10-14 17:24:42,141] INFO  -->> Mapped "{[/news/newShowMyself],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.showNews()
+[2016-10-14 17:24:42,141] INFO  -->> Mapped "{[/news/subNews],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.entity.NDoucument com.youdows.fightting.controller.NewsController.subNews(com.youdows.fightting.entity.NDoucument)
+[2016-10-14 17:24:42,141] INFO  -->> Mapped "{[/news/getNewsDetail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.getNewsDetail(java.lang.String)
+[2016-10-14 17:24:42,143] INFO  -->> Mapped "{[/test/list/{name}/{password}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.TestController.getProducts(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.youdows.fightting.entity.UserEntity) throws java.lang.Exception
+[2016-10-14 17:24:42,991] INFO  -->> Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2016-10-14 17:24:42,995] INFO  -->> Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[2016-10-14 17:24:43,405] INFO  -->> FrameworkServlet 'springmvc': initialization completed in 2034 ms
+[2016-10-14 17:24:51,403] INFO  -->> Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+[2016-10-14 17:24:52,265] INFO  -->> socket.io服务已启动
+[2016-10-14 17:24:52,266] INFO  -->> SocketIO server started at port: 8088
+[2016-10-14 17:24:52,528] INFO  -->> ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2016-10-14 17:25:45,653] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 17:25:45,830] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 17:25:45 CST 2016]; root of context hierarchy
+[2016-10-14 17:25:45,898] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 17:25:46,265] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 17:25:46,580] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 17:25:46,594] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:25:46,665] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 17:25:46,947] ERROR -->> maxIdle is deprecated
+[2016-10-14 17:25:51,450] INFO  -->> {dataSource-1} inited
+[2016-10-14 17:25:52,312] INFO  -->> Root WebApplicationContext: initialization completed in 6657 ms
+[2016-10-14 17:25:52,390] INFO  -->> FrameworkServlet 'springmvc': initialization started
+[2016-10-14 17:25:52,394] INFO  -->> Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Oct 14 17:25:52 CST 2016]; parent: Root WebApplicationContext
+[2016-10-14 17:25:52,394] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mvc.xml]
+[2016-10-14 17:25:52,544] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:25:52,775] INFO  -->> Mapped "{[/fileCenter/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.serviceModel.FileModel com.youdows.fightting.controller.FileController.fileUpload(javax.servlet.http.HttpServletRequest,com.youdows.fightting.serviceModel.FileModel) throws java.io.IOException
+[2016-10-14 17:25:52,778] INFO  -->> Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.index()
+[2016-10-14 17:25:52,778] INFO  -->> Mapped "{[/nextPage/{page}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.newPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+[2016-10-14 17:25:52,780] INFO  -->> Mapped "{[/images/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.fileUpload(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+[2016-10-14 17:25:52,780] INFO  -->> Mapped "{[/images/{imageName}/{imageType}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.getImages(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+[2016-10-14 17:25:52,781] INFO  -->> Mapped "{[/news/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.index()
+[2016-10-14 17:25:52,782] INFO  -->> Mapped "{[/news/newShowMyself],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.showNews()
+[2016-10-14 17:25:52,782] INFO  -->> Mapped "{[/news/subNews],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.entity.NDoucument com.youdows.fightting.controller.NewsController.subNews(com.youdows.fightting.entity.NDoucument)
+[2016-10-14 17:25:52,782] INFO  -->> Mapped "{[/news/getNewsDetail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.getNewsDetail(java.lang.String)
+[2016-10-14 17:25:52,784] INFO  -->> Mapped "{[/test/list/{name}/{password}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.TestController.getProducts(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.youdows.fightting.entity.UserEntity) throws java.lang.Exception
+[2016-10-14 17:25:53,452] INFO  -->> Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2016-10-14 17:25:53,457] INFO  -->> Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[2016-10-14 17:25:53,821] INFO  -->> FrameworkServlet 'springmvc': initialization completed in 1431 ms
+[2016-10-14 17:25:59,042] INFO  -->> ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2016-10-14 17:26:02,411] INFO  -->> Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+[2016-10-14 17:26:02,651] INFO  -->> socket.io服务已启动
+[2016-10-14 17:26:02,651] INFO  -->> SocketIO server started at port: 8088
+[2016-10-14 17:53:39,983] INFO  -->> Root WebApplicationContext: initialization started
+[2016-10-14 17:53:40,192] INFO  -->> Refreshing Root WebApplicationContext: startup date [Fri Oct 14 17:53:40 CST 2016]; root of context hierarchy
+[2016-10-14 17:53:40,254] INFO  -->> Loading XML bean definitions from class path resource [config/spring.xml]
+[2016-10-14 17:53:40,645] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mybatis.xml]
+[2016-10-14 17:53:41,012] INFO  -->> Loading properties file from class path resource [config/jdbc.properties]
+[2016-10-14 17:53:41,029] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:53:41,103] INFO  -->> Loading properties file from class path resource [config/config.properties]
+[2016-10-14 17:53:41,386] ERROR -->> maxIdle is deprecated
+[2016-10-14 17:53:44,983] INFO  -->> {dataSource-1} inited
+[2016-10-14 17:53:45,963] INFO  -->> Root WebApplicationContext: initialization completed in 5979 ms
+[2016-10-14 17:53:46,042] INFO  -->> FrameworkServlet 'springmvc': initialization started
+[2016-10-14 17:53:46,045] INFO  -->> Refreshing WebApplicationContext for namespace 'springmvc-servlet': startup date [Fri Oct 14 17:53:46 CST 2016]; parent: Root WebApplicationContext
+[2016-10-14 17:53:46,045] INFO  -->> Loading XML bean definitions from class path resource [config/spring-mvc.xml]
+[2016-10-14 17:53:46,230] INFO  -->> JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[2016-10-14 17:53:46,566] INFO  -->> Mapped "{[/fileCenter/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.serviceModel.FileModel com.youdows.fightting.controller.FileController.fileUpload(javax.servlet.http.HttpServletRequest,com.youdows.fightting.serviceModel.FileModel) throws java.io.IOException
+[2016-10-14 17:53:46,569] INFO  -->> Mapped "{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.index()
+[2016-10-14 17:53:46,569] INFO  -->> Mapped "{[/nextPage/{page}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.HomeController.newPage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+[2016-10-14 17:53:46,570] INFO  -->> Mapped "{[/images/uploadFile],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.fileUpload(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+[2016-10-14 17:53:46,570] INFO  -->> Mapped "{[/images/{imageName}/{imageType}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void com.youdows.fightting.controller.ImageController.getImages(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+[2016-10-14 17:53:46,571] INFO  -->> Mapped "{[/news/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.index()
+[2016-10-14 17:53:46,571] INFO  -->> Mapped "{[/news/newShowMyself],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.showNews()
+[2016-10-14 17:53:46,572] INFO  -->> Mapped "{[/news/subNews],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.youdows.fightting.entity.NDoucument com.youdows.fightting.controller.NewsController.subNews(com.youdows.fightting.entity.NDoucument)
+[2016-10-14 17:53:46,572] INFO  -->> Mapped "{[/news/getNewsDetail],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.NewsController.getNewsDetail(java.lang.String)
+[2016-10-14 17:53:46,573] INFO  -->> Mapped "{[/test/list/{name}/{password}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.youdows.fightting.controller.TestController.getProducts(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,com.youdows.fightting.entity.UserEntity) throws java.lang.Exception
+[2016-10-14 17:53:47,222] INFO  -->> Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+[2016-10-14 17:53:47,224] INFO  -->> Mapped URL path [/upload/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+[2016-10-14 17:53:47,556] INFO  -->> FrameworkServlet 'springmvc': initialization completed in 1514 ms
+[2016-10-14 17:53:56,101] INFO  -->> Session store / pubsub factory used: MemoryStoreFactory (local session store only)
+[2016-10-14 17:53:56,474] INFO  -->> SocketIO server started at port: 8088
+[2016-10-14 17:53:56,474] INFO  -->> socket.io服务已启动
+[2016-10-14 17:54:01,308] ERROR -->> Ignore this exception
+java.sql.SQLException: Subquery returns more than 1 row
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1086)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2617)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2778)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2834)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2156)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2313)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227)
+	at com.youdows.fightting.interceptor.PageInterceptor.setPageParameter(PageInterceptor.java:130)
+	at com.youdows.fightting.interceptor.PageInterceptor.intercept(PageInterceptor.java:93)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:60)
+	at com.sun.proxy.$Proxy52.prepare(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:73)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:59)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:267)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:137)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:96)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:77)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:108)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	at com.sun.proxy.$Proxy31.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:198)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:119)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:63)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy34.selectByAllPage(Unknown Source)
+	at com.youdows.fightting.service.impl.NewsServiceImpl.findNews(NewsServiceImpl.java:43)
+	at com.youdows.fightting.controller.HomeController.index(HomeController.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:132)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:749)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:689)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:83)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:938)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:870)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:852)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:621)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:837)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:936)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1004)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-10-14 17:54:01,325] WARN  -->> No mapping found for HTTP request with URI [/WEB-INF/template/errorpage/500.jsp] in DispatcherServlet with name 'springmvc'

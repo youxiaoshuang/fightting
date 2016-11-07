@@ -1,8 +1,10 @@
 package com.youdows.fightting.service.impl;
 
 import com.youdows.fightting.dao.NDoucumentMapper;
+import com.youdows.fightting.dao.YFileMapper;
 import com.youdows.fightting.dto.Page;
 import com.youdows.fightting.entity.NDoucument;
+import com.youdows.fightting.entity.YFile;
 import com.youdows.fightting.service.NewsService;
 import com.youdows.fightting.util.PageParameter;
 import org.slf4j.Logger;
@@ -25,6 +27,8 @@ import java.util.UUID;
 public class NewsServiceImpl implements NewsService {
     @Autowired
     private NDoucumentMapper nDoucumentMapper;
+    @Autowired
+    private YFileMapper yFileMapper;
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -41,6 +45,10 @@ public class NewsServiceImpl implements NewsService {
         Page page = new Page();
         page.setParameter(pageParameter);
         List<NDoucument> nDoucuments = nDoucumentMapper.selectByAllPage(page);
+        for (NDoucument nDoucument : nDoucuments) {
+            List<YFile> yFiles = yFileMapper.selectByDocId( nDoucument.getId() );
+            nDoucument.setImages( yFiles );
+        }
         return nDoucuments;
     }
 

@@ -20,6 +20,10 @@ public interface YFileMapper {
 
     YFile selectByPrimaryKey(Integer id);
 
+    List<YFile> selectByDocId(@Param( "docId" ) Integer docId);
+
+    YFile selectByKey(@Param( "key" ) String key);
+
     int updateByExampleSelective(@Param("record") YFile record, @Param("example") YFileExample example);
 
     int updateByExample(@Param("record") YFile record, @Param("example") YFileExample example);

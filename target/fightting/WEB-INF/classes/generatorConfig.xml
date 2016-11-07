@@ -19,7 +19,7 @@
 
         <!-- 		jdbc连接 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://127.0.0.1:3306/fighting"
+                        connectionURL="jdbc:mysql://122.9.34.125:3306/fighting"
                         userId="root" password="root" />
 
         <!-- 		类型转换 -->
@@ -45,7 +45,7 @@
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>
 
-        <table schema="fighting" tableName="y_file" domainObjectName="YFile"
+        <table schema="fighting" tableName="y_code" domainObjectName="YCode"
                enableInsert="true"
                enableDeleteByPrimaryKey="true"
                enableUpdateByPrimaryKey="true"
